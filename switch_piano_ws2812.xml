@@ -1,0 +1,3475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/mnt/hgfs/jeremy/Seafile/kicad/projects/switch_piano_ws2812/switch_piano_ws2812.kicad_sch</source>
+    <date>Mon 04 Jan 2021 11:02:58 PM AEST</date>
+    <tool>Eeschema 5.99.0-unknown-5db75805bd~106~ubuntu20.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>switch_piano_ws2812.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/key LEDs/" tstamps="/5b59d547-940b-4ed6-a82d-31e5c66e342e/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>key_leds.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/keys/" tstamps="/992a99a9-d4d3-4d73-adc0-35ca54627bd9/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>keys.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/extra_leds/" tstamps="/27316c0a-4d35-4f40-9937-2289022226c5/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>extra_leds.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>C,100n,16V,0402,10%,X5R,85C</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Digikey">1276-1234-1-ND</field>
+        <field name="MFG">Samsung</field>
+        <field name="MFG PN">CL05A104KO5NNNC</field>
+        <field name="P0_Value">100n</field>
+        <field name="P1_Voltage">16V</field>
+        <field name="P2_Package">0402</field>
+        <field name="P3_Tolerance">10%</field>
+        <field name="P4_Tempco">X5R</field>
+        <field name="P5_Maxtemp">85C</field>
+      </fields>
+      <libsource lib="jer_Samsung_MLCC_0402" part="C,100n,16V,0402,10%,X5R,85C" description="Capacitor"/>
+      <property name="P0_Value" value="100n"/>
+      <property name="P1_Voltage" value="16V"/>
+      <property name="P2_Package" value="0402"/>
+      <property name="P3_Tolerance" value="10%"/>
+      <property name="P4_Tempco" value="X5R"/>
+      <property name="P5_Maxtemp" value="85C"/>
+      <property name="MFG" value="Samsung"/>
+      <property name="MFG PN" value="CL05A104KO5NNNC"/>
+      <property name="Digikey" value="1276-1234-1-ND"/>
+      <property name="Mouser" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="switch_piano_ws2812.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>eb8b549b-6161-4666-b72c-d84de2686a93</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole_3.4mm</value>
+      <footprint>jer_mounting_holes:MountingHole_3.4mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="jer_mounting_hole" part="MountingHole_3.4mm" description="Mounting Hole, 3.4mm without connection"/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="switch_piano_ws2812.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>7be04edc-4947-4cba-9236-6adca9df65f5</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole_3.4mm</value>
+      <footprint>jer_mounting_holes:MountingHole_3.4mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="jer_mounting_hole" part="MountingHole_3.4mm" description="Mounting Hole, 3.4mm without connection"/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="switch_piano_ws2812.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>7800be1a-96de-495b-8983-b79c55d665ec</tstamp>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole_3.4mm</value>
+      <footprint>jer_mounting_holes:MountingHole_3.4mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="jer_mounting_hole" part="MountingHole_3.4mm" description="Mounting Hole, 3.4mm without connection"/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="switch_piano_ws2812.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>9616c65e-fbf6-4f2a-bb03-f487b4b1b25d</tstamp>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole_3.4mm</value>
+      <footprint>jer_mounting_holes:MountingHole_3.4mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="jer_mounting_hole" part="MountingHole_3.4mm" description="Mounting Hole, 3.4mm without connection"/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="switch_piano_ws2812.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>1e36d48f-d200-43dd-8b27-a090a0e4c70e</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x05</value>
+      <footprint>Connector_Molex:Molex_KK-254_AE-6410-05A_1x05_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x05" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="switch_piano_ws2812.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>0622999e-1c58-4c9a-8649-b862d0510dcf</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x06</value>
+      <footprint>Connector_Molex:Molex_KK-254_AE-6410-06A_1x06_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="switch_piano_ws2812.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>2849623f-ff24-4102-9633-7b0357219a21</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>SN74LV1T34DCK</value>
+      <footprint>Package_TO_SOT_SMD:SOT-353_SC-70-5</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/sn74lv1t34.pdf</datasheet>
+      <libsource lib="Logic_LevelTranslator" part="SN74LV1T34DCK" description="Single Power Supply, Single Buffer GATE, CMOS Logic, Level Shifter, SOT-353"/>
+      <property name="Sheet name" value=""/>
+      <property name="Sheet file" value="switch_piano_ws2812.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>9b103ec7-468f-4131-ba3d-0fa7bbc70a2d</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>C,100n,16V,0402,10%,X5R,85C</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Digikey">1276-1234-1-ND</field>
+        <field name="LCSC">C1525</field>
+        <field name="MFG">Samsung</field>
+        <field name="MFG PN">CL05A104KO5NNNC</field>
+        <field name="P0_Value">100n</field>
+        <field name="P1_Voltage">16V</field>
+        <field name="P2_Package">0402</field>
+        <field name="P3_Tolerance">10%</field>
+        <field name="P4_Tempco">X5R</field>
+        <field name="P5_Maxtemp">85C</field>
+      </fields>
+      <libsource lib="jer_Samsung_MLCC_0402" part="C,100n,16V,0402,10%,X5R,85C" description="Capacitor"/>
+      <property name="P0_Value" value="100n"/>
+      <property name="P1_Voltage" value="16V"/>
+      <property name="P2_Package" value="0402"/>
+      <property name="P3_Tolerance" value="10%"/>
+      <property name="P4_Tempco" value="X5R"/>
+      <property name="P5_Maxtemp" value="85C"/>
+      <property name="MFG" value="Samsung"/>
+      <property name="MFG PN" value="CL05A104KO5NNNC"/>
+      <property name="Digikey" value="1276-1234-1-ND"/>
+      <property name="Mouser" value=""/>
+      <property name="LCSC" value="C1525"/>
+      <property name="Sheet name" value="key LEDs"/>
+      <property name="Sheet file" value="key_leds.kicad_sch"/>
+      <sheetpath names="/key LEDs/" tstamps="/5b59d547-940b-4ed6-a82d-31e5c66e342e/"/>
+      <tstamp>38b50197-f891-4dd9-8e4f-753a036ef844</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>C,100n,16V,0402,10%,X5R,85C</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Digikey">1276-1234-1-ND</field>
+        <field name="LCSC">C1525</field>
+        <field name="MFG">Samsung</field>
+        <field name="MFG PN">CL05A104KO5NNNC</field>
+        <field name="P0_Value">100n</field>
+        <field name="P1_Voltage">16V</field>
+        <field name="P2_Package">0402</field>
+        <field name="P3_Tolerance">10%</field>
+        <field name="P4_Tempco">X5R</field>
+        <field name="P5_Maxtemp">85C</field>
+      </fields>
+      <libsource lib="jer_Samsung_MLCC_0402" part="C,100n,16V,0402,10%,X5R,85C" description="Capacitor"/>
+      <property name="P0_Value" value="100n"/>
+      <property name="P1_Voltage" value="16V"/>
+      <property name="P2_Package" value="0402"/>
+      <property name="P3_Tolerance" value="10%"/>
+      <property name="P4_Tempco" value="X5R"/>
+      <property name="P5_Maxtemp" value="85C"/>
+      <property name="MFG" value="Samsung"/>
+      <property name="MFG PN" value="CL05A104KO5NNNC"/>
+      <property name="Digikey" value="1276-1234-1-ND"/>
+      <property name="Mouser" value=""/>
+      <property name="LCSC" value="C1525"/>
+      <property name="Sheet name" value="key LEDs"/>
+      <property name="Sheet file" value="key_leds.kicad_sch"/>
+      <sheetpath names="/key LEDs/" tstamps="/5b59d547-940b-4ed6-a82d-31e5c66e342e/"/>
+      <tstamp>16a17fd3-d7b9-4863-a1b8-9e266bcb7d6c</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>C,100n,16V,0402,10%,X5R,85C</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Digikey">1276-1234-1-ND</field>
+        <field name="LCSC">C1525</field>
+        <field name="MFG">Samsung</field>
+        <field name="MFG PN">CL05A104KO5NNNC</field>
+        <field name="P0_Value">100n</field>
+        <field name="P1_Voltage">16V</field>
+        <field name="P2_Package">0402</field>
+        <field name="P3_Tolerance">10%</field>
+        <field name="P4_Tempco">X5R</field>
+        <field name="P5_Maxtemp">85C</field>
+      </fields>
+      <libsource lib="jer_Samsung_MLCC_0402" part="C,100n,16V,0402,10%,X5R,85C" description="Capacitor"/>
+      <property name="P0_Value" value="100n"/>
+      <property name="P1_Voltage" value="16V"/>
+      <property name="P2_Package" value="0402"/>
+      <property name="P3_Tolerance" value="10%"/>
+      <property name="P4_Tempco" value="X5R"/>
+      <property name="P5_Maxtemp" value="85C"/>
+      <property name="MFG" value="Samsung"/>
+      <property name="MFG PN" value="CL05A104KO5NNNC"/>
+      <property name="Digikey" value="1276-1234-1-ND"/>
+      <property name="Mouser" value=""/>
+      <property name="LCSC" value="C1525"/>
+      <property name="Sheet name" value="key LEDs"/>
+      <property name="Sheet file" value="key_leds.kicad_sch"/>
+      <sheetpath names="/key LEDs/" tstamps="/5b59d547-940b-4ed6-a82d-31e5c66e342e/"/>
+      <tstamp>6ec107e7-ab2c-4f7f-9686-e619cafce944</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>C,100n,16V,0402,10%,X5R,85C</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Digikey">1276-1234-1-ND</field>
+        <field name="LCSC">C1525</field>
+        <field name="MFG">Samsung</field>
+        <field name="MFG PN">CL05A104KO5NNNC</field>
+        <field name="P0_Value">100n</field>
+        <field name="P1_Voltage">16V</field>
+        <field name="P2_Package">0402</field>
+        <field name="P3_Tolerance">10%</field>
+        <field name="P4_Tempco">X5R</field>
+        <field name="P5_Maxtemp">85C</field>
+      </fields>
+      <libsource lib="jer_Samsung_MLCC_0402" part="C,100n,16V,0402,10%,X5R,85C" description="Capacitor"/>
+      <property name="P0_Value" value="100n"/>
+      <property name="P1_Voltage" value="16V"/>
+      <property name="P2_Package" value="0402"/>
+      <property name="P3_Tolerance" value="10%"/>
+      <property name="P4_Tempco" value="X5R"/>
+      <property name="P5_Maxtemp" value="85C"/>
+      <property name="MFG" value="Samsung"/>
+      <property name="MFG PN" value="CL05A104KO5NNNC"/>
+      <property name="Digikey" value="1276-1234-1-ND"/>
+      <property name="Mouser" value=""/>
+      <property name="LCSC" value="C1525"/>
+      <property name="Sheet name" value="key LEDs"/>
+      <property name="Sheet file" value="key_leds.kicad_sch"/>
+      <sheetpath names="/key LEDs/" tstamps="/5b59d547-940b-4ed6-a82d-31e5c66e342e/"/>
+      <tstamp>f36d2e98-1458-4b3d-891a-39fdb7c2ca12</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>C,100n,16V,0402,10%,X5R,85C</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Digikey">1276-1234-1-ND</field>
+        <field name="LCSC">C1525</field>
+        <field name="MFG">Samsung</field>
+        <field name="MFG PN">CL05A104KO5NNNC</field>
+        <field name="P0_Value">100n</field>
+        <field name="P1_Voltage">16V</field>
+        <field name="P2_Package">0402</field>
+        <field name="P3_Tolerance">10%</field>
+        <field name="P4_Tempco">X5R</field>
+        <field name="P5_Maxtemp">85C</field>
+      </fields>
+      <libsource lib="jer_Samsung_MLCC_0402" part="C,100n,16V,0402,10%,X5R,85C" description="Capacitor"/>
+      <property name="P0_Value" value="100n"/>
+      <property name="P1_Voltage" value="16V"/>
+      <property name="P2_Package" value="0402"/>
+      <property name="P3_Tolerance" value="10%"/>
+      <property name="P4_Tempco" value="X5R"/>
+      <property name="P5_Maxtemp" value="85C"/>
+      <property name="MFG" value="Samsung"/>
+      <property name="MFG PN" value="CL05A104KO5NNNC"/>
+      <property name="Digikey" value="1276-1234-1-ND"/>
+      <property name="Mouser" value=""/>
+      <property name="LCSC" value="C1525"/>
+      <property name="Sheet name" value="key LEDs"/>
+      <property name="Sheet file" value="key_leds.kicad_sch"/>
+      <sheetpath names="/key LEDs/" tstamps="/5b59d547-940b-4ed6-a82d-31e5c66e342e/"/>
+      <tstamp>a34f98ae-3107-4d66-92b9-b0c4780b5f55</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>C,100n,16V,0402,10%,X5R,85C</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Digikey">1276-1234-1-ND</field>
+        <field name="LCSC">C1525</field>
+        <field name="MFG">Samsung</field>
+        <field name="MFG PN">CL05A104KO5NNNC</field>
+        <field name="P0_Value">100n</field>
+        <field name="P1_Voltage">16V</field>
+        <field name="P2_Package">0402</field>
+        <field name="P3_Tolerance">10%</field>
+        <field name="P4_Tempco">X5R</field>
+        <field name="P5_Maxtemp">85C</field>
+      </fields>
+      <libsource lib="jer_Samsung_MLCC_0402" part="C,100n,16V,0402,10%,X5R,85C" description="Capacitor"/>
+      <property name="P0_Value" value="100n"/>
+      <property name="P1_Voltage" value="16V"/>
+      <property name="P2_Package" value="0402"/>
+      <property name="P3_Tolerance" value="10%"/>
+      <property name="P4_Tempco" value="X5R"/>
+      <property name="P5_Maxtemp" value="85C"/>
+      <property name="MFG" value="Samsung"/>
+      <property name="MFG PN" value="CL05A104KO5NNNC"/>
+      <property name="Digikey" value="1276-1234-1-ND"/>
+      <property name="Mouser" value=""/>
+      <property name="LCSC" value="C1525"/>
+      <property name="Sheet name" value="key LEDs"/>
+      <property name="Sheet file" value="key_leds.kicad_sch"/>
+      <sheetpath names="/key LEDs/" tstamps="/5b59d547-940b-4ed6-a82d-31e5c66e342e/"/>
+      <tstamp>d48bdd75-4a84-4fc3-953e-ff8dc2f7ff20</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>C,100n,16V,0402,10%,X5R,85C</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Digikey">1276-1234-1-ND</field>
+        <field name="LCSC">C1525</field>
+        <field name="MFG">Samsung</field>
+        <field name="MFG PN">CL05A104KO5NNNC</field>
+        <field name="P0_Value">100n</field>
+        <field name="P1_Voltage">16V</field>
+        <field name="P2_Package">0402</field>
+        <field name="P3_Tolerance">10%</field>
+        <field name="P4_Tempco">X5R</field>
+        <field name="P5_Maxtemp">85C</field>
+      </fields>
+      <libsource lib="jer_Samsung_MLCC_0402" part="C,100n,16V,0402,10%,X5R,85C" description="Capacitor"/>
+      <property name="P0_Value" value="100n"/>
+      <property name="P1_Voltage" value="16V"/>
+      <property name="P2_Package" value="0402"/>
+      <property name="P3_Tolerance" value="10%"/>
+      <property name="P4_Tempco" value="X5R"/>
+      <property name="P5_Maxtemp" value="85C"/>
+      <property name="MFG" value="Samsung"/>
+      <property name="MFG PN" value="CL05A104KO5NNNC"/>
+      <property name="Digikey" value="1276-1234-1-ND"/>
+      <property name="Mouser" value=""/>
+      <property name="LCSC" value="C1525"/>
+      <property name="Sheet name" value="key LEDs"/>
+      <property name="Sheet file" value="key_leds.kicad_sch"/>
+      <sheetpath names="/key LEDs/" tstamps="/5b59d547-940b-4ed6-a82d-31e5c66e342e/"/>
+      <tstamp>351c67d5-534d-4633-ba0a-4b0d967b1678</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>C,100n,16V,0402,10%,X5R,85C</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Digikey">1276-1234-1-ND</field>
+        <field name="LCSC">C1525</field>
+        <field name="MFG">Samsung</field>
+        <field name="MFG PN">CL05A104KO5NNNC</field>
+        <field name="P0_Value">100n</field>
+        <field name="P1_Voltage">16V</field>
+        <field name="P2_Package">0402</field>
+        <field name="P3_Tolerance">10%</field>
+        <field name="P4_Tempco">X5R</field>
+        <field name="P5_Maxtemp">85C</field>
+      </fields>
+      <libsource lib="jer_Samsung_MLCC_0402" part="C,100n,16V,0402,10%,X5R,85C" description="Capacitor"/>
+      <property name="P0_Value" value="100n"/>
+      <property name="P1_Voltage" value="16V"/>
+      <property name="P2_Package" value="0402"/>
+      <property name="P3_Tolerance" value="10%"/>
+      <property name="P4_Tempco" value="X5R"/>
+      <property name="P5_Maxtemp" value="85C"/>
+      <property name="MFG" value="Samsung"/>
+      <property name="MFG PN" value="CL05A104KO5NNNC"/>
+      <property name="Digikey" value="1276-1234-1-ND"/>
+      <property name="Mouser" value=""/>
+      <property name="LCSC" value="C1525"/>
+      <property name="Sheet name" value="key LEDs"/>
+      <property name="Sheet file" value="key_leds.kicad_sch"/>
+      <sheetpath names="/key LEDs/" tstamps="/5b59d547-940b-4ed6-a82d-31e5c66e342e/"/>
+      <tstamp>fa6af23d-d1e9-4986-bf58-5e77a6576e25</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>C,100n,16V,0402,10%,X5R,85C</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Digikey">1276-1234-1-ND</field>
+        <field name="LCSC">C1525</field>
+        <field name="MFG">Samsung</field>
+        <field name="MFG PN">CL05A104KO5NNNC</field>
+        <field name="P0_Value">100n</field>
+        <field name="P1_Voltage">16V</field>
+        <field name="P2_Package">0402</field>
+        <field name="P3_Tolerance">10%</field>
+        <field name="P4_Tempco">X5R</field>
+        <field name="P5_Maxtemp">85C</field>
+      </fields>
+      <libsource lib="jer_Samsung_MLCC_0402" part="C,100n,16V,0402,10%,X5R,85C" description="Capacitor"/>
+      <property name="P0_Value" value="100n"/>
+      <property name="P1_Voltage" value="16V"/>
+      <property name="P2_Package" value="0402"/>
+      <property name="P3_Tolerance" value="10%"/>
+      <property name="P4_Tempco" value="X5R"/>
+      <property name="P5_Maxtemp" value="85C"/>
+      <property name="MFG" value="Samsung"/>
+      <property name="MFG PN" value="CL05A104KO5NNNC"/>
+      <property name="Digikey" value="1276-1234-1-ND"/>
+      <property name="Mouser" value=""/>
+      <property name="LCSC" value="C1525"/>
+      <property name="Sheet name" value="key LEDs"/>
+      <property name="Sheet file" value="key_leds.kicad_sch"/>
+      <sheetpath names="/key LEDs/" tstamps="/5b59d547-940b-4ed6-a82d-31e5c66e342e/"/>
+      <tstamp>9cd110c2-e162-428d-a7c5-1ee1adfdfc91</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>C,100n,16V,0402,10%,X5R,85C</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Digikey">1276-1234-1-ND</field>
+        <field name="LCSC">C1525</field>
+        <field name="MFG">Samsung</field>
+        <field name="MFG PN">CL05A104KO5NNNC</field>
+        <field name="P0_Value">100n</field>
+        <field name="P1_Voltage">16V</field>
+        <field name="P2_Package">0402</field>
+        <field name="P3_Tolerance">10%</field>
+        <field name="P4_Tempco">X5R</field>
+        <field name="P5_Maxtemp">85C</field>
+      </fields>
+      <libsource lib="jer_Samsung_MLCC_0402" part="C,100n,16V,0402,10%,X5R,85C" description="Capacitor"/>
+      <property name="P0_Value" value="100n"/>
+      <property name="P1_Voltage" value="16V"/>
+      <property name="P2_Package" value="0402"/>
+      <property name="P3_Tolerance" value="10%"/>
+      <property name="P4_Tempco" value="X5R"/>
+      <property name="P5_Maxtemp" value="85C"/>
+      <property name="MFG" value="Samsung"/>
+      <property name="MFG PN" value="CL05A104KO5NNNC"/>
+      <property name="Digikey" value="1276-1234-1-ND"/>
+      <property name="Mouser" value=""/>
+      <property name="LCSC" value="C1525"/>
+      <property name="Sheet name" value="key LEDs"/>
+      <property name="Sheet file" value="key_leds.kicad_sch"/>
+      <sheetpath names="/key LEDs/" tstamps="/5b59d547-940b-4ed6-a82d-31e5c66e342e/"/>
+      <tstamp>e59546ea-52c2-46dc-a77e-287cebcbb5bb</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>C,100n,16V,0402,10%,X5R,85C</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Digikey">1276-1234-1-ND</field>
+        <field name="LCSC">C1525</field>
+        <field name="MFG">Samsung</field>
+        <field name="MFG PN">CL05A104KO5NNNC</field>
+        <field name="P0_Value">100n</field>
+        <field name="P1_Voltage">16V</field>
+        <field name="P2_Package">0402</field>
+        <field name="P3_Tolerance">10%</field>
+        <field name="P4_Tempco">X5R</field>
+        <field name="P5_Maxtemp">85C</field>
+      </fields>
+      <libsource lib="jer_Samsung_MLCC_0402" part="C,100n,16V,0402,10%,X5R,85C" description="Capacitor"/>
+      <property name="P0_Value" value="100n"/>
+      <property name="P1_Voltage" value="16V"/>
+      <property name="P2_Package" value="0402"/>
+      <property name="P3_Tolerance" value="10%"/>
+      <property name="P4_Tempco" value="X5R"/>
+      <property name="P5_Maxtemp" value="85C"/>
+      <property name="MFG" value="Samsung"/>
+      <property name="MFG PN" value="CL05A104KO5NNNC"/>
+      <property name="Digikey" value="1276-1234-1-ND"/>
+      <property name="Mouser" value=""/>
+      <property name="LCSC" value="C1525"/>
+      <property name="Sheet name" value="key LEDs"/>
+      <property name="Sheet file" value="key_leds.kicad_sch"/>
+      <sheetpath names="/key LEDs/" tstamps="/5b59d547-940b-4ed6-a82d-31e5c66e342e/"/>
+      <tstamp>2b3deed1-3b50-479d-ac21-fc0651dd9985</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>C,100n,16V,0402,10%,X5R,85C</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Digikey">1276-1234-1-ND</field>
+        <field name="LCSC">C1525</field>
+        <field name="MFG">Samsung</field>
+        <field name="MFG PN">CL05A104KO5NNNC</field>
+        <field name="P0_Value">100n</field>
+        <field name="P1_Voltage">16V</field>
+        <field name="P2_Package">0402</field>
+        <field name="P3_Tolerance">10%</field>
+        <field name="P4_Tempco">X5R</field>
+        <field name="P5_Maxtemp">85C</field>
+      </fields>
+      <libsource lib="jer_Samsung_MLCC_0402" part="C,100n,16V,0402,10%,X5R,85C" description="Capacitor"/>
+      <property name="P0_Value" value="100n"/>
+      <property name="P1_Voltage" value="16V"/>
+      <property name="P2_Package" value="0402"/>
+      <property name="P3_Tolerance" value="10%"/>
+      <property name="P4_Tempco" value="X5R"/>
+      <property name="P5_Maxtemp" value="85C"/>
+      <property name="MFG" value="Samsung"/>
+      <property name="MFG PN" value="CL05A104KO5NNNC"/>
+      <property name="Digikey" value="1276-1234-1-ND"/>
+      <property name="Mouser" value=""/>
+      <property name="LCSC" value="C1525"/>
+      <property name="Sheet name" value="key LEDs"/>
+      <property name="Sheet file" value="key_leds.kicad_sch"/>
+      <sheetpath names="/key LEDs/" tstamps="/5b59d547-940b-4ed6-a82d-31e5c66e342e/"/>
+      <tstamp>f27404b9-4460-44ac-9570-0b8f163b55d8</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>C,100n,16V,0402,10%,X5R,85C</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Digikey">1276-1234-1-ND</field>
+        <field name="LCSC">C1525</field>
+        <field name="MFG">Samsung</field>
+        <field name="MFG PN">CL05A104KO5NNNC</field>
+        <field name="P0_Value">100n</field>
+        <field name="P1_Voltage">16V</field>
+        <field name="P2_Package">0402</field>
+        <field name="P3_Tolerance">10%</field>
+        <field name="P4_Tempco">X5R</field>
+        <field name="P5_Maxtemp">85C</field>
+      </fields>
+      <libsource lib="jer_Samsung_MLCC_0402" part="C,100n,16V,0402,10%,X5R,85C" description="Capacitor"/>
+      <property name="P0_Value" value="100n"/>
+      <property name="P1_Voltage" value="16V"/>
+      <property name="P2_Package" value="0402"/>
+      <property name="P3_Tolerance" value="10%"/>
+      <property name="P4_Tempco" value="X5R"/>
+      <property name="P5_Maxtemp" value="85C"/>
+      <property name="MFG" value="Samsung"/>
+      <property name="MFG PN" value="CL05A104KO5NNNC"/>
+      <property name="Digikey" value="1276-1234-1-ND"/>
+      <property name="Mouser" value=""/>
+      <property name="LCSC" value="C1525"/>
+      <property name="Sheet name" value="key LEDs"/>
+      <property name="Sheet file" value="key_leds.kicad_sch"/>
+      <sheetpath names="/key LEDs/" tstamps="/5b59d547-940b-4ed6-a82d-31e5c66e342e/"/>
+      <tstamp>a361e193-843d-4154-8fa9-52850ac9b42b</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>C,100n,16V,0402,10%,X5R,85C</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Digikey">1276-1234-1-ND</field>
+        <field name="LCSC">C1525</field>
+        <field name="MFG">Samsung</field>
+        <field name="MFG PN">CL05A104KO5NNNC</field>
+        <field name="P0_Value">100n</field>
+        <field name="P1_Voltage">16V</field>
+        <field name="P2_Package">0402</field>
+        <field name="P3_Tolerance">10%</field>
+        <field name="P4_Tempco">X5R</field>
+        <field name="P5_Maxtemp">85C</field>
+      </fields>
+      <libsource lib="jer_Samsung_MLCC_0402" part="C,100n,16V,0402,10%,X5R,85C" description="Capacitor"/>
+      <property name="P0_Value" value="100n"/>
+      <property name="P1_Voltage" value="16V"/>
+      <property name="P2_Package" value="0402"/>
+      <property name="P3_Tolerance" value="10%"/>
+      <property name="P4_Tempco" value="X5R"/>
+      <property name="P5_Maxtemp" value="85C"/>
+      <property name="MFG" value="Samsung"/>
+      <property name="MFG PN" value="CL05A104KO5NNNC"/>
+      <property name="Digikey" value="1276-1234-1-ND"/>
+      <property name="Mouser" value=""/>
+      <property name="LCSC" value="C1525"/>
+      <property name="Sheet name" value="key LEDs"/>
+      <property name="Sheet file" value="key_leds.kicad_sch"/>
+      <sheetpath names="/key LEDs/" tstamps="/5b59d547-940b-4ed6-a82d-31e5c66e342e/"/>
+      <tstamp>16614d55-ee58-46da-8d90-471ca3ac2bc6</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>C,100n,16V,0402,10%,X5R,85C</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Digikey">1276-1234-1-ND</field>
+        <field name="LCSC">C1525</field>
+        <field name="MFG">Samsung</field>
+        <field name="MFG PN">CL05A104KO5NNNC</field>
+        <field name="P0_Value">100n</field>
+        <field name="P1_Voltage">16V</field>
+        <field name="P2_Package">0402</field>
+        <field name="P3_Tolerance">10%</field>
+        <field name="P4_Tempco">X5R</field>
+        <field name="P5_Maxtemp">85C</field>
+      </fields>
+      <libsource lib="jer_Samsung_MLCC_0402" part="C,100n,16V,0402,10%,X5R,85C" description="Capacitor"/>
+      <property name="P0_Value" value="100n"/>
+      <property name="P1_Voltage" value="16V"/>
+      <property name="P2_Package" value="0402"/>
+      <property name="P3_Tolerance" value="10%"/>
+      <property name="P4_Tempco" value="X5R"/>
+      <property name="P5_Maxtemp" value="85C"/>
+      <property name="MFG" value="Samsung"/>
+      <property name="MFG PN" value="CL05A104KO5NNNC"/>
+      <property name="Digikey" value="1276-1234-1-ND"/>
+      <property name="Mouser" value=""/>
+      <property name="LCSC" value="C1525"/>
+      <property name="Sheet name" value="key LEDs"/>
+      <property name="Sheet file" value="key_leds.kicad_sch"/>
+      <sheetpath names="/key LEDs/" tstamps="/5b59d547-940b-4ed6-a82d-31e5c66e342e/"/>
+      <tstamp>3e3d9022-4248-4776-b496-2d4590ef60cf</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>C,100n,16V,0402,10%,X5R,85C</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Digikey">1276-1234-1-ND</field>
+        <field name="LCSC">C1525</field>
+        <field name="MFG">Samsung</field>
+        <field name="MFG PN">CL05A104KO5NNNC</field>
+        <field name="P0_Value">100n</field>
+        <field name="P1_Voltage">16V</field>
+        <field name="P2_Package">0402</field>
+        <field name="P3_Tolerance">10%</field>
+        <field name="P4_Tempco">X5R</field>
+        <field name="P5_Maxtemp">85C</field>
+      </fields>
+      <libsource lib="jer_Samsung_MLCC_0402" part="C,100n,16V,0402,10%,X5R,85C" description="Capacitor"/>
+      <property name="P0_Value" value="100n"/>
+      <property name="P1_Voltage" value="16V"/>
+      <property name="P2_Package" value="0402"/>
+      <property name="P3_Tolerance" value="10%"/>
+      <property name="P4_Tempco" value="X5R"/>
+      <property name="P5_Maxtemp" value="85C"/>
+      <property name="MFG" value="Samsung"/>
+      <property name="MFG PN" value="CL05A104KO5NNNC"/>
+      <property name="Digikey" value="1276-1234-1-ND"/>
+      <property name="Mouser" value=""/>
+      <property name="LCSC" value="C1525"/>
+      <property name="Sheet name" value="key LEDs"/>
+      <property name="Sheet file" value="key_leds.kicad_sch"/>
+      <sheetpath names="/key LEDs/" tstamps="/5b59d547-940b-4ed6-a82d-31e5c66e342e/"/>
+      <tstamp>fc640107-24e6-4a7f-9afe-161f6b96e960</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>C,100n,16V,0402,10%,X5R,85C</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Digikey">1276-1234-1-ND</field>
+        <field name="LCSC">C1525</field>
+        <field name="MFG">Samsung</field>
+        <field name="MFG PN">CL05A104KO5NNNC</field>
+        <field name="P0_Value">100n</field>
+        <field name="P1_Voltage">16V</field>
+        <field name="P2_Package">0402</field>
+        <field name="P3_Tolerance">10%</field>
+        <field name="P4_Tempco">X5R</field>
+        <field name="P5_Maxtemp">85C</field>
+      </fields>
+      <libsource lib="jer_Samsung_MLCC_0402" part="C,100n,16V,0402,10%,X5R,85C" description="Capacitor"/>
+      <property name="P0_Value" value="100n"/>
+      <property name="P1_Voltage" value="16V"/>
+      <property name="P2_Package" value="0402"/>
+      <property name="P3_Tolerance" value="10%"/>
+      <property name="P4_Tempco" value="X5R"/>
+      <property name="P5_Maxtemp" value="85C"/>
+      <property name="MFG" value="Samsung"/>
+      <property name="MFG PN" value="CL05A104KO5NNNC"/>
+      <property name="Digikey" value="1276-1234-1-ND"/>
+      <property name="Mouser" value=""/>
+      <property name="LCSC" value="C1525"/>
+      <property name="Sheet name" value="key LEDs"/>
+      <property name="Sheet file" value="key_leds.kicad_sch"/>
+      <sheetpath names="/key LEDs/" tstamps="/5b59d547-940b-4ed6-a82d-31e5c66e342e/"/>
+      <tstamp>a15b3b6e-66c2-4293-ab3f-d98633a2ffca</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>C,100n,16V,0402,10%,X5R,85C</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Digikey">1276-1234-1-ND</field>
+        <field name="LCSC">C1525</field>
+        <field name="MFG">Samsung</field>
+        <field name="MFG PN">CL05A104KO5NNNC</field>
+        <field name="P0_Value">100n</field>
+        <field name="P1_Voltage">16V</field>
+        <field name="P2_Package">0402</field>
+        <field name="P3_Tolerance">10%</field>
+        <field name="P4_Tempco">X5R</field>
+        <field name="P5_Maxtemp">85C</field>
+      </fields>
+      <libsource lib="jer_Samsung_MLCC_0402" part="C,100n,16V,0402,10%,X5R,85C" description="Capacitor"/>
+      <property name="P0_Value" value="100n"/>
+      <property name="P1_Voltage" value="16V"/>
+      <property name="P2_Package" value="0402"/>
+      <property name="P3_Tolerance" value="10%"/>
+      <property name="P4_Tempco" value="X5R"/>
+      <property name="P5_Maxtemp" value="85C"/>
+      <property name="MFG" value="Samsung"/>
+      <property name="MFG PN" value="CL05A104KO5NNNC"/>
+      <property name="Digikey" value="1276-1234-1-ND"/>
+      <property name="Mouser" value=""/>
+      <property name="LCSC" value="C1525"/>
+      <property name="Sheet name" value="key LEDs"/>
+      <property name="Sheet file" value="key_leds.kicad_sch"/>
+      <sheetpath names="/key LEDs/" tstamps="/5b59d547-940b-4ed6-a82d-31e5c66e342e/"/>
+      <tstamp>479408e1-d226-41de-ac60-eeda6ef088eb</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>C,100n,16V,0402,10%,X5R,85C</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Digikey">1276-1234-1-ND</field>
+        <field name="LCSC">C1525</field>
+        <field name="MFG">Samsung</field>
+        <field name="MFG PN">CL05A104KO5NNNC</field>
+        <field name="P0_Value">100n</field>
+        <field name="P1_Voltage">16V</field>
+        <field name="P2_Package">0402</field>
+        <field name="P3_Tolerance">10%</field>
+        <field name="P4_Tempco">X5R</field>
+        <field name="P5_Maxtemp">85C</field>
+      </fields>
+      <libsource lib="jer_Samsung_MLCC_0402" part="C,100n,16V,0402,10%,X5R,85C" description="Capacitor"/>
+      <property name="P0_Value" value="100n"/>
+      <property name="P1_Voltage" value="16V"/>
+      <property name="P2_Package" value="0402"/>
+      <property name="P3_Tolerance" value="10%"/>
+      <property name="P4_Tempco" value="X5R"/>
+      <property name="P5_Maxtemp" value="85C"/>
+      <property name="MFG" value="Samsung"/>
+      <property name="MFG PN" value="CL05A104KO5NNNC"/>
+      <property name="Digikey" value="1276-1234-1-ND"/>
+      <property name="Mouser" value=""/>
+      <property name="LCSC" value="C1525"/>
+      <property name="Sheet name" value="key LEDs"/>
+      <property name="Sheet file" value="key_leds.kicad_sch"/>
+      <sheetpath names="/key LEDs/" tstamps="/5b59d547-940b-4ed6-a82d-31e5c66e342e/"/>
+      <tstamp>ee3e7d38-a016-4eb7-9453-956c686d9114</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>C,100n,16V,0402,10%,X5R,85C</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Digikey">1276-1234-1-ND</field>
+        <field name="LCSC">C1525</field>
+        <field name="MFG">Samsung</field>
+        <field name="MFG PN">CL05A104KO5NNNC</field>
+        <field name="P0_Value">100n</field>
+        <field name="P1_Voltage">16V</field>
+        <field name="P2_Package">0402</field>
+        <field name="P3_Tolerance">10%</field>
+        <field name="P4_Tempco">X5R</field>
+        <field name="P5_Maxtemp">85C</field>
+      </fields>
+      <libsource lib="jer_Samsung_MLCC_0402" part="C,100n,16V,0402,10%,X5R,85C" description="Capacitor"/>
+      <property name="P0_Value" value="100n"/>
+      <property name="P1_Voltage" value="16V"/>
+      <property name="P2_Package" value="0402"/>
+      <property name="P3_Tolerance" value="10%"/>
+      <property name="P4_Tempco" value="X5R"/>
+      <property name="P5_Maxtemp" value="85C"/>
+      <property name="MFG" value="Samsung"/>
+      <property name="MFG PN" value="CL05A104KO5NNNC"/>
+      <property name="Digikey" value="1276-1234-1-ND"/>
+      <property name="Mouser" value=""/>
+      <property name="LCSC" value="C1525"/>
+      <property name="Sheet name" value="key LEDs"/>
+      <property name="Sheet file" value="key_leds.kicad_sch"/>
+      <sheetpath names="/key LEDs/" tstamps="/5b59d547-940b-4ed6-a82d-31e5c66e342e/"/>
+      <tstamp>75d5cb4b-3050-41ce-a3d3-b19677dfddc2</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>C,100n,16V,0402,10%,X5R,85C</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Digikey">1276-1234-1-ND</field>
+        <field name="LCSC">C1525</field>
+        <field name="MFG">Samsung</field>
+        <field name="MFG PN">CL05A104KO5NNNC</field>
+        <field name="P0_Value">100n</field>
+        <field name="P1_Voltage">16V</field>
+        <field name="P2_Package">0402</field>
+        <field name="P3_Tolerance">10%</field>
+        <field name="P4_Tempco">X5R</field>
+        <field name="P5_Maxtemp">85C</field>
+      </fields>
+      <libsource lib="jer_Samsung_MLCC_0402" part="C,100n,16V,0402,10%,X5R,85C" description="Capacitor"/>
+      <property name="P0_Value" value="100n"/>
+      <property name="P1_Voltage" value="16V"/>
+      <property name="P2_Package" value="0402"/>
+      <property name="P3_Tolerance" value="10%"/>
+      <property name="P4_Tempco" value="X5R"/>
+      <property name="P5_Maxtemp" value="85C"/>
+      <property name="MFG" value="Samsung"/>
+      <property name="MFG PN" value="CL05A104KO5NNNC"/>
+      <property name="Digikey" value="1276-1234-1-ND"/>
+      <property name="Mouser" value=""/>
+      <property name="LCSC" value="C1525"/>
+      <property name="Sheet name" value="key LEDs"/>
+      <property name="Sheet file" value="key_leds.kicad_sch"/>
+      <sheetpath names="/key LEDs/" tstamps="/5b59d547-940b-4ed6-a82d-31e5c66e342e/"/>
+      <tstamp>5575c1ff-22ae-4da5-a4cf-4b4c42a1d2d5</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>C,100n,16V,0402,10%,X5R,85C</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Digikey">1276-1234-1-ND</field>
+        <field name="LCSC">C1525</field>
+        <field name="MFG">Samsung</field>
+        <field name="MFG PN">CL05A104KO5NNNC</field>
+        <field name="P0_Value">100n</field>
+        <field name="P1_Voltage">16V</field>
+        <field name="P2_Package">0402</field>
+        <field name="P3_Tolerance">10%</field>
+        <field name="P4_Tempco">X5R</field>
+        <field name="P5_Maxtemp">85C</field>
+      </fields>
+      <libsource lib="jer_Samsung_MLCC_0402" part="C,100n,16V,0402,10%,X5R,85C" description="Capacitor"/>
+      <property name="P0_Value" value="100n"/>
+      <property name="P1_Voltage" value="16V"/>
+      <property name="P2_Package" value="0402"/>
+      <property name="P3_Tolerance" value="10%"/>
+      <property name="P4_Tempco" value="X5R"/>
+      <property name="P5_Maxtemp" value="85C"/>
+      <property name="MFG" value="Samsung"/>
+      <property name="MFG PN" value="CL05A104KO5NNNC"/>
+      <property name="Digikey" value="1276-1234-1-ND"/>
+      <property name="Mouser" value=""/>
+      <property name="LCSC" value="C1525"/>
+      <property name="Sheet name" value="key LEDs"/>
+      <property name="Sheet file" value="key_leds.kicad_sch"/>
+      <sheetpath names="/key LEDs/" tstamps="/5b59d547-940b-4ed6-a82d-31e5c66e342e/"/>
+      <tstamp>50032a03-a322-404c-983c-b505d1f3f444</tstamp>
+    </comp>
+    <comp ref="C24">
+      <value>C,100n,16V,0402,10%,X5R,85C</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Digikey">1276-1234-1-ND</field>
+        <field name="LCSC">C1525</field>
+        <field name="MFG">Samsung</field>
+        <field name="MFG PN">CL05A104KO5NNNC</field>
+        <field name="P0_Value">100n</field>
+        <field name="P1_Voltage">16V</field>
+        <field name="P2_Package">0402</field>
+        <field name="P3_Tolerance">10%</field>
+        <field name="P4_Tempco">X5R</field>
+        <field name="P5_Maxtemp">85C</field>
+      </fields>
+      <libsource lib="jer_Samsung_MLCC_0402" part="C,100n,16V,0402,10%,X5R,85C" description="Capacitor"/>
+      <property name="P0_Value" value="100n"/>
+      <property name="P1_Voltage" value="16V"/>
+      <property name="P2_Package" value="0402"/>
+      <property name="P3_Tolerance" value="10%"/>
+      <property name="P4_Tempco" value="X5R"/>
+      <property name="P5_Maxtemp" value="85C"/>
+      <property name="MFG" value="Samsung"/>
+      <property name="MFG PN" value="CL05A104KO5NNNC"/>
+      <property name="Digikey" value="1276-1234-1-ND"/>
+      <property name="Mouser" value=""/>
+      <property name="LCSC" value="C1525"/>
+      <property name="Sheet name" value="key LEDs"/>
+      <property name="Sheet file" value="key_leds.kicad_sch"/>
+      <sheetpath names="/key LEDs/" tstamps="/5b59d547-940b-4ed6-a82d-31e5c66e342e/"/>
+      <tstamp>79820d29-3e08-40b4-a845-d33ce21651e6</tstamp>
+    </comp>
+    <comp ref="C25">
+      <value>C,100n,16V,0402,10%,X5R,85C</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Digikey">1276-1234-1-ND</field>
+        <field name="LCSC">C1525</field>
+        <field name="MFG">Samsung</field>
+        <field name="MFG PN">CL05A104KO5NNNC</field>
+        <field name="P0_Value">100n</field>
+        <field name="P1_Voltage">16V</field>
+        <field name="P2_Package">0402</field>
+        <field name="P3_Tolerance">10%</field>
+        <field name="P4_Tempco">X5R</field>
+        <field name="P5_Maxtemp">85C</field>
+      </fields>
+      <libsource lib="jer_Samsung_MLCC_0402" part="C,100n,16V,0402,10%,X5R,85C" description="Capacitor"/>
+      <property name="P0_Value" value="100n"/>
+      <property name="P1_Voltage" value="16V"/>
+      <property name="P2_Package" value="0402"/>
+      <property name="P3_Tolerance" value="10%"/>
+      <property name="P4_Tempco" value="X5R"/>
+      <property name="P5_Maxtemp" value="85C"/>
+      <property name="MFG" value="Samsung"/>
+      <property name="MFG PN" value="CL05A104KO5NNNC"/>
+      <property name="Digikey" value="1276-1234-1-ND"/>
+      <property name="Mouser" value=""/>
+      <property name="LCSC" value="C1525"/>
+      <property name="Sheet name" value="key LEDs"/>
+      <property name="Sheet file" value="key_leds.kicad_sch"/>
+      <sheetpath names="/key LEDs/" tstamps="/5b59d547-940b-4ed6-a82d-31e5c66e342e/"/>
+      <tstamp>cda8ac2a-d921-47e3-b8ec-c615c9aa11ff</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>WS2812E_LED</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <fields>
+        <field name="LCSC">C139127</field>
+        <field name="MFG">Worldsemi</field>
+        <field name="MFG PN">WS2812E</field>
+      </fields>
+      <libsource lib="jeremy" part="WS2812E_LED" description="WS2812B compatible LED, 1.5x1.5mm"/>
+      <property name="MFG" value="Worldsemi"/>
+      <property name="MFG PN" value="WS2812E"/>
+      <property name="LCSC" value="C139127"/>
+      <property name="Sheet name" value="key LEDs"/>
+      <property name="Sheet file" value="key_leds.kicad_sch"/>
+      <sheetpath names="/key LEDs/" tstamps="/5b59d547-940b-4ed6-a82d-31e5c66e342e/"/>
+      <tstamp>4cd3c400-b10b-480f-a1a9-69de95c3077b</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>WS2812E_LED</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <fields>
+        <field name="LCSC">C139127</field>
+        <field name="MFG">Worldsemi</field>
+        <field name="MFG PN">WS2812E</field>
+      </fields>
+      <libsource lib="jeremy" part="WS2812E_LED" description="WS2812B compatible LED, 1.5x1.5mm"/>
+      <property name="MFG" value="Worldsemi"/>
+      <property name="MFG PN" value="WS2812E"/>
+      <property name="LCSC" value="C139127"/>
+      <property name="Sheet name" value="key LEDs"/>
+      <property name="Sheet file" value="key_leds.kicad_sch"/>
+      <sheetpath names="/key LEDs/" tstamps="/5b59d547-940b-4ed6-a82d-31e5c66e342e/"/>
+      <tstamp>cb8ed5ef-6c87-4d4d-b573-e8661326b2b8</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>WS2812E_LED</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <fields>
+        <field name="LCSC">C139127</field>
+        <field name="MFG">Worldsemi</field>
+        <field name="MFG PN">WS2812E</field>
+      </fields>
+      <libsource lib="jeremy" part="WS2812E_LED" description="WS2812B compatible LED, 1.5x1.5mm"/>
+      <property name="MFG" value="Worldsemi"/>
+      <property name="MFG PN" value="WS2812E"/>
+      <property name="LCSC" value="C139127"/>
+      <property name="Sheet name" value="key LEDs"/>
+      <property name="Sheet file" value="key_leds.kicad_sch"/>
+      <sheetpath names="/key LEDs/" tstamps="/5b59d547-940b-4ed6-a82d-31e5c66e342e/"/>
+      <tstamp>e8774a1b-1481-4991-828b-406b8aeeb620</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>WS2812E_LED</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <fields>
+        <field name="LCSC">C139127</field>
+        <field name="MFG">Worldsemi</field>
+        <field name="MFG PN">WS2812E</field>
+      </fields>
+      <libsource lib="jeremy" part="WS2812E_LED" description="WS2812B compatible LED, 1.5x1.5mm"/>
+      <property name="MFG" value="Worldsemi"/>
+      <property name="MFG PN" value="WS2812E"/>
+      <property name="LCSC" value="C139127"/>
+      <property name="Sheet name" value="key LEDs"/>
+      <property name="Sheet file" value="key_leds.kicad_sch"/>
+      <sheetpath names="/key LEDs/" tstamps="/5b59d547-940b-4ed6-a82d-31e5c66e342e/"/>
+      <tstamp>c60e42e7-5bd7-4781-99f3-08110a5e6f93</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>WS2812E_LED</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <fields>
+        <field name="LCSC">C139127</field>
+        <field name="MFG">Worldsemi</field>
+        <field name="MFG PN">WS2812E</field>
+      </fields>
+      <libsource lib="jeremy" part="WS2812E_LED" description="WS2812B compatible LED, 1.5x1.5mm"/>
+      <property name="MFG" value="Worldsemi"/>
+      <property name="MFG PN" value="WS2812E"/>
+      <property name="LCSC" value="C139127"/>
+      <property name="Sheet name" value="key LEDs"/>
+      <property name="Sheet file" value="key_leds.kicad_sch"/>
+      <sheetpath names="/key LEDs/" tstamps="/5b59d547-940b-4ed6-a82d-31e5c66e342e/"/>
+      <tstamp>3af5ff68-6807-42ae-812b-80e13b456782</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>WS2812E_LED</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <fields>
+        <field name="LCSC">C139127</field>
+        <field name="MFG">Worldsemi</field>
+        <field name="MFG PN">WS2812E</field>
+      </fields>
+      <libsource lib="jeremy" part="WS2812E_LED" description="WS2812B compatible LED, 1.5x1.5mm"/>
+      <property name="MFG" value="Worldsemi"/>
+      <property name="MFG PN" value="WS2812E"/>
+      <property name="LCSC" value="C139127"/>
+      <property name="Sheet name" value="key LEDs"/>
+      <property name="Sheet file" value="key_leds.kicad_sch"/>
+      <sheetpath names="/key LEDs/" tstamps="/5b59d547-940b-4ed6-a82d-31e5c66e342e/"/>
+      <tstamp>55d51b22-0b8c-4f90-91eb-e326c27adb83</tstamp>
+    </comp>
+    <comp ref="U8">
+      <value>WS2812E_LED</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <fields>
+        <field name="LCSC">C139127</field>
+        <field name="MFG">Worldsemi</field>
+        <field name="MFG PN">WS2812E</field>
+      </fields>
+      <libsource lib="jeremy" part="WS2812E_LED" description="WS2812B compatible LED, 1.5x1.5mm"/>
+      <property name="MFG" value="Worldsemi"/>
+      <property name="MFG PN" value="WS2812E"/>
+      <property name="LCSC" value="C139127"/>
+      <property name="Sheet name" value="key LEDs"/>
+      <property name="Sheet file" value="key_leds.kicad_sch"/>
+      <sheetpath names="/key LEDs/" tstamps="/5b59d547-940b-4ed6-a82d-31e5c66e342e/"/>
+      <tstamp>35be4cc9-c84b-4907-b9f1-4e0b1b10666c</tstamp>
+    </comp>
+    <comp ref="U9">
+      <value>WS2812E_LED</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <fields>
+        <field name="LCSC">C139127</field>
+        <field name="MFG">Worldsemi</field>
+        <field name="MFG PN">WS2812E</field>
+      </fields>
+      <libsource lib="jeremy" part="WS2812E_LED" description="WS2812B compatible LED, 1.5x1.5mm"/>
+      <property name="MFG" value="Worldsemi"/>
+      <property name="MFG PN" value="WS2812E"/>
+      <property name="LCSC" value="C139127"/>
+      <property name="Sheet name" value="key LEDs"/>
+      <property name="Sheet file" value="key_leds.kicad_sch"/>
+      <sheetpath names="/key LEDs/" tstamps="/5b59d547-940b-4ed6-a82d-31e5c66e342e/"/>
+      <tstamp>e122d24e-faa4-4f1c-ab79-f28eb3826975</tstamp>
+    </comp>
+    <comp ref="U10">
+      <value>WS2812E_LED</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <fields>
+        <field name="LCSC">C139127</field>
+        <field name="MFG">Worldsemi</field>
+        <field name="MFG PN">WS2812E</field>
+      </fields>
+      <libsource lib="jeremy" part="WS2812E_LED" description="WS2812B compatible LED, 1.5x1.5mm"/>
+      <property name="MFG" value="Worldsemi"/>
+      <property name="MFG PN" value="WS2812E"/>
+      <property name="LCSC" value="C139127"/>
+      <property name="Sheet name" value="key LEDs"/>
+      <property name="Sheet file" value="key_leds.kicad_sch"/>
+      <sheetpath names="/key LEDs/" tstamps="/5b59d547-940b-4ed6-a82d-31e5c66e342e/"/>
+      <tstamp>3462dfb5-a1ca-4de7-ad86-92fb8c8a2977</tstamp>
+    </comp>
+    <comp ref="U11">
+      <value>WS2812E_LED</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <fields>
+        <field name="LCSC">C139127</field>
+        <field name="MFG">Worldsemi</field>
+        <field name="MFG PN">WS2812E</field>
+      </fields>
+      <libsource lib="jeremy" part="WS2812E_LED" description="WS2812B compatible LED, 1.5x1.5mm"/>
+      <property name="MFG" value="Worldsemi"/>
+      <property name="MFG PN" value="WS2812E"/>
+      <property name="LCSC" value="C139127"/>
+      <property name="Sheet name" value="key LEDs"/>
+      <property name="Sheet file" value="key_leds.kicad_sch"/>
+      <sheetpath names="/key LEDs/" tstamps="/5b59d547-940b-4ed6-a82d-31e5c66e342e/"/>
+      <tstamp>992f771f-ded0-4b65-9b47-229069f21b03</tstamp>
+    </comp>
+    <comp ref="U12">
+      <value>WS2812E_LED</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <fields>
+        <field name="LCSC">C139127</field>
+        <field name="MFG">Worldsemi</field>
+        <field name="MFG PN">WS2812E</field>
+      </fields>
+      <libsource lib="jeremy" part="WS2812E_LED" description="WS2812B compatible LED, 1.5x1.5mm"/>
+      <property name="MFG" value="Worldsemi"/>
+      <property name="MFG PN" value="WS2812E"/>
+      <property name="LCSC" value="C139127"/>
+      <property name="Sheet name" value="key LEDs"/>
+      <property name="Sheet file" value="key_leds.kicad_sch"/>
+      <sheetpath names="/key LEDs/" tstamps="/5b59d547-940b-4ed6-a82d-31e5c66e342e/"/>
+      <tstamp>4921daf2-388a-4dc2-97c6-b58f0148d846</tstamp>
+    </comp>
+    <comp ref="U13">
+      <value>WS2812E_LED</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <fields>
+        <field name="LCSC">C139127</field>
+        <field name="MFG">Worldsemi</field>
+        <field name="MFG PN">WS2812E</field>
+      </fields>
+      <libsource lib="jeremy" part="WS2812E_LED" description="WS2812B compatible LED, 1.5x1.5mm"/>
+      <property name="MFG" value="Worldsemi"/>
+      <property name="MFG PN" value="WS2812E"/>
+      <property name="LCSC" value="C139127"/>
+      <property name="Sheet name" value="key LEDs"/>
+      <property name="Sheet file" value="key_leds.kicad_sch"/>
+      <sheetpath names="/key LEDs/" tstamps="/5b59d547-940b-4ed6-a82d-31e5c66e342e/"/>
+      <tstamp>d723bbd7-b89f-48b5-8fb0-ac7a8f3c0f41</tstamp>
+    </comp>
+    <comp ref="U14">
+      <value>WS2812E_LED</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <fields>
+        <field name="LCSC">C139127</field>
+        <field name="MFG">Worldsemi</field>
+        <field name="MFG PN">WS2812E</field>
+      </fields>
+      <libsource lib="jeremy" part="WS2812E_LED" description="WS2812B compatible LED, 1.5x1.5mm"/>
+      <property name="MFG" value="Worldsemi"/>
+      <property name="MFG PN" value="WS2812E"/>
+      <property name="LCSC" value="C139127"/>
+      <property name="Sheet name" value="key LEDs"/>
+      <property name="Sheet file" value="key_leds.kicad_sch"/>
+      <sheetpath names="/key LEDs/" tstamps="/5b59d547-940b-4ed6-a82d-31e5c66e342e/"/>
+      <tstamp>ebaf0a0a-aca0-4fb6-8f15-de44dac92bcb</tstamp>
+    </comp>
+    <comp ref="U15">
+      <value>WS2812E_LED</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <fields>
+        <field name="LCSC">C139127</field>
+        <field name="MFG">Worldsemi</field>
+        <field name="MFG PN">WS2812E</field>
+      </fields>
+      <libsource lib="jeremy" part="WS2812E_LED" description="WS2812B compatible LED, 1.5x1.5mm"/>
+      <property name="MFG" value="Worldsemi"/>
+      <property name="MFG PN" value="WS2812E"/>
+      <property name="LCSC" value="C139127"/>
+      <property name="Sheet name" value="key LEDs"/>
+      <property name="Sheet file" value="key_leds.kicad_sch"/>
+      <sheetpath names="/key LEDs/" tstamps="/5b59d547-940b-4ed6-a82d-31e5c66e342e/"/>
+      <tstamp>81b450c9-57f5-4446-94cf-a28b0412d518</tstamp>
+    </comp>
+    <comp ref="U16">
+      <value>WS2812E_LED</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <fields>
+        <field name="LCSC">C139127</field>
+        <field name="MFG">Worldsemi</field>
+        <field name="MFG PN">WS2812E</field>
+      </fields>
+      <libsource lib="jeremy" part="WS2812E_LED" description="WS2812B compatible LED, 1.5x1.5mm"/>
+      <property name="MFG" value="Worldsemi"/>
+      <property name="MFG PN" value="WS2812E"/>
+      <property name="LCSC" value="C139127"/>
+      <property name="Sheet name" value="key LEDs"/>
+      <property name="Sheet file" value="key_leds.kicad_sch"/>
+      <sheetpath names="/key LEDs/" tstamps="/5b59d547-940b-4ed6-a82d-31e5c66e342e/"/>
+      <tstamp>937c973b-b22b-4c89-a2e3-9fed4ded7af4</tstamp>
+    </comp>
+    <comp ref="U17">
+      <value>WS2812E_LED</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <fields>
+        <field name="LCSC">C139127</field>
+        <field name="MFG">Worldsemi</field>
+        <field name="MFG PN">WS2812E</field>
+      </fields>
+      <libsource lib="jeremy" part="WS2812E_LED" description="WS2812B compatible LED, 1.5x1.5mm"/>
+      <property name="MFG" value="Worldsemi"/>
+      <property name="MFG PN" value="WS2812E"/>
+      <property name="LCSC" value="C139127"/>
+      <property name="Sheet name" value="key LEDs"/>
+      <property name="Sheet file" value="key_leds.kicad_sch"/>
+      <sheetpath names="/key LEDs/" tstamps="/5b59d547-940b-4ed6-a82d-31e5c66e342e/"/>
+      <tstamp>c2f70d40-960b-4a20-ba7a-70ecd4cff872</tstamp>
+    </comp>
+    <comp ref="U18">
+      <value>WS2812E_LED</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <fields>
+        <field name="LCSC">C139127</field>
+        <field name="MFG">Worldsemi</field>
+        <field name="MFG PN">WS2812E</field>
+      </fields>
+      <libsource lib="jeremy" part="WS2812E_LED" description="WS2812B compatible LED, 1.5x1.5mm"/>
+      <property name="MFG" value="Worldsemi"/>
+      <property name="MFG PN" value="WS2812E"/>
+      <property name="LCSC" value="C139127"/>
+      <property name="Sheet name" value="key LEDs"/>
+      <property name="Sheet file" value="key_leds.kicad_sch"/>
+      <sheetpath names="/key LEDs/" tstamps="/5b59d547-940b-4ed6-a82d-31e5c66e342e/"/>
+      <tstamp>39d24b0f-3294-46fb-b8ac-b5b15901dd55</tstamp>
+    </comp>
+    <comp ref="U19">
+      <value>WS2812E_LED</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <fields>
+        <field name="LCSC">C139127</field>
+        <field name="MFG">Worldsemi</field>
+        <field name="MFG PN">WS2812E</field>
+      </fields>
+      <libsource lib="jeremy" part="WS2812E_LED" description="WS2812B compatible LED, 1.5x1.5mm"/>
+      <property name="MFG" value="Worldsemi"/>
+      <property name="MFG PN" value="WS2812E"/>
+      <property name="LCSC" value="C139127"/>
+      <property name="Sheet name" value="key LEDs"/>
+      <property name="Sheet file" value="key_leds.kicad_sch"/>
+      <sheetpath names="/key LEDs/" tstamps="/5b59d547-940b-4ed6-a82d-31e5c66e342e/"/>
+      <tstamp>5f6b7525-715a-41f9-9516-eaede5dc5152</tstamp>
+    </comp>
+    <comp ref="U20">
+      <value>WS2812E_LED</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <fields>
+        <field name="LCSC">C139127</field>
+        <field name="MFG">Worldsemi</field>
+        <field name="MFG PN">WS2812E</field>
+      </fields>
+      <libsource lib="jeremy" part="WS2812E_LED" description="WS2812B compatible LED, 1.5x1.5mm"/>
+      <property name="MFG" value="Worldsemi"/>
+      <property name="MFG PN" value="WS2812E"/>
+      <property name="LCSC" value="C139127"/>
+      <property name="Sheet name" value="key LEDs"/>
+      <property name="Sheet file" value="key_leds.kicad_sch"/>
+      <sheetpath names="/key LEDs/" tstamps="/5b59d547-940b-4ed6-a82d-31e5c66e342e/"/>
+      <tstamp>1b872b5a-264c-4a72-82e9-44c447dae845</tstamp>
+    </comp>
+    <comp ref="U21">
+      <value>WS2812E_LED</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <fields>
+        <field name="LCSC">C139127</field>
+        <field name="MFG">Worldsemi</field>
+        <field name="MFG PN">WS2812E</field>
+      </fields>
+      <libsource lib="jeremy" part="WS2812E_LED" description="WS2812B compatible LED, 1.5x1.5mm"/>
+      <property name="MFG" value="Worldsemi"/>
+      <property name="MFG PN" value="WS2812E"/>
+      <property name="LCSC" value="C139127"/>
+      <property name="Sheet name" value="key LEDs"/>
+      <property name="Sheet file" value="key_leds.kicad_sch"/>
+      <sheetpath names="/key LEDs/" tstamps="/5b59d547-940b-4ed6-a82d-31e5c66e342e/"/>
+      <tstamp>40fce788-7b04-400e-bc25-c8a357c3679f</tstamp>
+    </comp>
+    <comp ref="U22">
+      <value>WS2812E_LED</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <fields>
+        <field name="LCSC">C139127</field>
+        <field name="MFG">Worldsemi</field>
+        <field name="MFG PN">WS2812E</field>
+      </fields>
+      <libsource lib="jeremy" part="WS2812E_LED" description="WS2812B compatible LED, 1.5x1.5mm"/>
+      <property name="MFG" value="Worldsemi"/>
+      <property name="MFG PN" value="WS2812E"/>
+      <property name="LCSC" value="C139127"/>
+      <property name="Sheet name" value="key LEDs"/>
+      <property name="Sheet file" value="key_leds.kicad_sch"/>
+      <sheetpath names="/key LEDs/" tstamps="/5b59d547-940b-4ed6-a82d-31e5c66e342e/"/>
+      <tstamp>2bb960f9-6e46-43cb-815e-13733ef02d10</tstamp>
+    </comp>
+    <comp ref="U23">
+      <value>WS2812E_LED</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <fields>
+        <field name="LCSC">C139127</field>
+        <field name="MFG">Worldsemi</field>
+        <field name="MFG PN">WS2812E</field>
+      </fields>
+      <libsource lib="jeremy" part="WS2812E_LED" description="WS2812B compatible LED, 1.5x1.5mm"/>
+      <property name="MFG" value="Worldsemi"/>
+      <property name="MFG PN" value="WS2812E"/>
+      <property name="LCSC" value="C139127"/>
+      <property name="Sheet name" value="key LEDs"/>
+      <property name="Sheet file" value="key_leds.kicad_sch"/>
+      <sheetpath names="/key LEDs/" tstamps="/5b59d547-940b-4ed6-a82d-31e5c66e342e/"/>
+      <tstamp>41cdf134-c721-4f7d-adc9-59126e78703f</tstamp>
+    </comp>
+    <comp ref="U24">
+      <value>WS2812E_LED</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <fields>
+        <field name="LCSC">C139127</field>
+        <field name="MFG">Worldsemi</field>
+        <field name="MFG PN">WS2812E</field>
+      </fields>
+      <libsource lib="jeremy" part="WS2812E_LED" description="WS2812B compatible LED, 1.5x1.5mm"/>
+      <property name="MFG" value="Worldsemi"/>
+      <property name="MFG PN" value="WS2812E"/>
+      <property name="LCSC" value="C139127"/>
+      <property name="Sheet name" value="key LEDs"/>
+      <property name="Sheet file" value="key_leds.kicad_sch"/>
+      <sheetpath names="/key LEDs/" tstamps="/5b59d547-940b-4ed6-a82d-31e5c66e342e/"/>
+      <tstamp>9700d800-663a-4194-b07e-d977e0a9510e</tstamp>
+    </comp>
+    <comp ref="U25">
+      <value>WS2812E_LED</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <fields>
+        <field name="LCSC">C139127</field>
+        <field name="MFG">Worldsemi</field>
+        <field name="MFG PN">WS2812E</field>
+      </fields>
+      <libsource lib="jeremy" part="WS2812E_LED" description="WS2812B compatible LED, 1.5x1.5mm"/>
+      <property name="MFG" value="Worldsemi"/>
+      <property name="MFG PN" value="WS2812E"/>
+      <property name="LCSC" value="C139127"/>
+      <property name="Sheet name" value="key LEDs"/>
+      <property name="Sheet file" value="key_leds.kicad_sch"/>
+      <sheetpath names="/key LEDs/" tstamps="/5b59d547-940b-4ed6-a82d-31e5c66e342e/"/>
+      <tstamp>702caed0-dba5-481a-aeea-2c42cca969ef</tstamp>
+    </comp>
+    <comp ref="C26">
+      <value>C,100n,16V,0402,10%,X5R,85C</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Digikey">1276-1234-1-ND</field>
+        <field name="MFG">Samsung</field>
+        <field name="MFG PN">CL05A104KO5NNNC</field>
+        <field name="P0_Value">100n</field>
+        <field name="P1_Voltage">16V</field>
+        <field name="P2_Package">0402</field>
+        <field name="P3_Tolerance">10%</field>
+        <field name="P4_Tempco">X5R</field>
+        <field name="P5_Maxtemp">85C</field>
+      </fields>
+      <libsource lib="jer_Samsung_MLCC_0402" part="C,100n,16V,0402,10%,X5R,85C" description="Capacitor"/>
+      <property name="P0_Value" value="100n"/>
+      <property name="P1_Voltage" value="16V"/>
+      <property name="P2_Package" value="0402"/>
+      <property name="P3_Tolerance" value="10%"/>
+      <property name="P4_Tempco" value="X5R"/>
+      <property name="P5_Maxtemp" value="85C"/>
+      <property name="MFG" value="Samsung"/>
+      <property name="MFG PN" value="CL05A104KO5NNNC"/>
+      <property name="Digikey" value="1276-1234-1-ND"/>
+      <property name="Mouser" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheet name" value="keys"/>
+      <property name="Sheet file" value="keys.kicad_sch"/>
+      <sheetpath names="/keys/" tstamps="/992a99a9-d4d3-4d73-adc0-35ca54627bd9/"/>
+      <tstamp>a8d87a7e-e443-48ae-908f-1d9ecb5615df</tstamp>
+    </comp>
+    <comp ref="C27">
+      <value>C,100n,16V,0402,10%,X5R,85C</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Digikey">1276-1234-1-ND</field>
+        <field name="MFG">Samsung</field>
+        <field name="MFG PN">CL05A104KO5NNNC</field>
+        <field name="P0_Value">100n</field>
+        <field name="P1_Voltage">16V</field>
+        <field name="P2_Package">0402</field>
+        <field name="P3_Tolerance">10%</field>
+        <field name="P4_Tempco">X5R</field>
+        <field name="P5_Maxtemp">85C</field>
+      </fields>
+      <libsource lib="jer_Samsung_MLCC_0402" part="C,100n,16V,0402,10%,X5R,85C" description="Capacitor"/>
+      <property name="P0_Value" value="100n"/>
+      <property name="P1_Voltage" value="16V"/>
+      <property name="P2_Package" value="0402"/>
+      <property name="P3_Tolerance" value="10%"/>
+      <property name="P4_Tempco" value="X5R"/>
+      <property name="P5_Maxtemp" value="85C"/>
+      <property name="MFG" value="Samsung"/>
+      <property name="MFG PN" value="CL05A104KO5NNNC"/>
+      <property name="Digikey" value="1276-1234-1-ND"/>
+      <property name="Mouser" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheet name" value="keys"/>
+      <property name="Sheet file" value="keys.kicad_sch"/>
+      <sheetpath names="/keys/" tstamps="/992a99a9-d4d3-4d73-adc0-35ca54627bd9/"/>
+      <tstamp>34c3081a-24d9-480a-be04-474f83de4dd8</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>NO_BUTTON_K2-1102SP-E4SC-04</value>
+      <footprint>Button_Switch_SMD:SW_SPST_PTS645</footprint>
+      <fields>
+        <field name="LCSC">C136669</field>
+        <field name="MFG">Korean Hroparts Elec</field>
+        <field name="MFG PN">K2-1102SP-E4SC-04</field>
+      </fields>
+      <libsource lib="jeremy" part="NO_BUTTON_K2-1102SP-E4SC-04" description="MEC 5E single pole normally-open tactile switch"/>
+      <property name="MFG" value="Korean Hroparts Elec"/>
+      <property name="MFG PN" value="K2-1102SP-E4SC-04"/>
+      <property name="LCSC" value="C136669"/>
+      <property name="Sheet name" value="keys"/>
+      <property name="Sheet file" value="keys.kicad_sch"/>
+      <sheetpath names="/keys/" tstamps="/992a99a9-d4d3-4d73-adc0-35ca54627bd9/"/>
+      <tstamp>768bc0ef-f7e7-4dc6-ba64-5be3f6856a05</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>NO_BUTTON_K2-1102SP-E4SC-04</value>
+      <footprint>Button_Switch_SMD:SW_SPST_PTS645</footprint>
+      <fields>
+        <field name="LCSC">C136669</field>
+        <field name="MFG">Korean Hroparts Elec</field>
+        <field name="MFG PN">K2-1102SP-E4SC-04</field>
+      </fields>
+      <libsource lib="jeremy" part="NO_BUTTON_K2-1102SP-E4SC-04" description="MEC 5E single pole normally-open tactile switch"/>
+      <property name="MFG" value="Korean Hroparts Elec"/>
+      <property name="MFG PN" value="K2-1102SP-E4SC-04"/>
+      <property name="LCSC" value="C136669"/>
+      <property name="Sheet name" value="keys"/>
+      <property name="Sheet file" value="keys.kicad_sch"/>
+      <sheetpath names="/keys/" tstamps="/992a99a9-d4d3-4d73-adc0-35ca54627bd9/"/>
+      <tstamp>cf8f5449-10b5-4e4e-9551-2a126358a711</tstamp>
+    </comp>
+    <comp ref="SW3">
+      <value>NO_BUTTON_K2-1102SP-E4SC-04</value>
+      <footprint>Button_Switch_SMD:SW_SPST_PTS645</footprint>
+      <fields>
+        <field name="LCSC">C136669</field>
+        <field name="MFG">Korean Hroparts Elec</field>
+        <field name="MFG PN">K2-1102SP-E4SC-04</field>
+      </fields>
+      <libsource lib="jeremy" part="NO_BUTTON_K2-1102SP-E4SC-04" description="MEC 5E single pole normally-open tactile switch"/>
+      <property name="MFG" value="Korean Hroparts Elec"/>
+      <property name="MFG PN" value="K2-1102SP-E4SC-04"/>
+      <property name="LCSC" value="C136669"/>
+      <property name="Sheet name" value="keys"/>
+      <property name="Sheet file" value="keys.kicad_sch"/>
+      <sheetpath names="/keys/" tstamps="/992a99a9-d4d3-4d73-adc0-35ca54627bd9/"/>
+      <tstamp>9ac0a690-2bc4-4668-9fba-16fd83942c6c</tstamp>
+    </comp>
+    <comp ref="SW4">
+      <value>NO_BUTTON_K2-1102SP-E4SC-04</value>
+      <footprint>Button_Switch_SMD:SW_SPST_PTS645</footprint>
+      <fields>
+        <field name="LCSC">C136669</field>
+        <field name="MFG">Korean Hroparts Elec</field>
+        <field name="MFG PN">K2-1102SP-E4SC-04</field>
+      </fields>
+      <libsource lib="jeremy" part="NO_BUTTON_K2-1102SP-E4SC-04" description="MEC 5E single pole normally-open tactile switch"/>
+      <property name="MFG" value="Korean Hroparts Elec"/>
+      <property name="MFG PN" value="K2-1102SP-E4SC-04"/>
+      <property name="LCSC" value="C136669"/>
+      <property name="Sheet name" value="keys"/>
+      <property name="Sheet file" value="keys.kicad_sch"/>
+      <sheetpath names="/keys/" tstamps="/992a99a9-d4d3-4d73-adc0-35ca54627bd9/"/>
+      <tstamp>5470d5d6-0857-4298-9454-519e30ecf40d</tstamp>
+    </comp>
+    <comp ref="SW5">
+      <value>NO_BUTTON_K2-1102SP-E4SC-04</value>
+      <footprint>Button_Switch_SMD:SW_SPST_PTS645</footprint>
+      <fields>
+        <field name="LCSC">C136669</field>
+        <field name="MFG">Korean Hroparts Elec</field>
+        <field name="MFG PN">K2-1102SP-E4SC-04</field>
+      </fields>
+      <libsource lib="jeremy" part="NO_BUTTON_K2-1102SP-E4SC-04" description="MEC 5E single pole normally-open tactile switch"/>
+      <property name="MFG" value="Korean Hroparts Elec"/>
+      <property name="MFG PN" value="K2-1102SP-E4SC-04"/>
+      <property name="LCSC" value="C136669"/>
+      <property name="Sheet name" value="keys"/>
+      <property name="Sheet file" value="keys.kicad_sch"/>
+      <sheetpath names="/keys/" tstamps="/992a99a9-d4d3-4d73-adc0-35ca54627bd9/"/>
+      <tstamp>51507ece-863a-437c-a5d1-2021449330c8</tstamp>
+    </comp>
+    <comp ref="SW6">
+      <value>NO_BUTTON_K2-1102SP-E4SC-04</value>
+      <footprint>Button_Switch_SMD:SW_SPST_PTS645</footprint>
+      <fields>
+        <field name="LCSC">C136669</field>
+        <field name="MFG">Korean Hroparts Elec</field>
+        <field name="MFG PN">K2-1102SP-E4SC-04</field>
+      </fields>
+      <libsource lib="jeremy" part="NO_BUTTON_K2-1102SP-E4SC-04" description="MEC 5E single pole normally-open tactile switch"/>
+      <property name="MFG" value="Korean Hroparts Elec"/>
+      <property name="MFG PN" value="K2-1102SP-E4SC-04"/>
+      <property name="LCSC" value="C136669"/>
+      <property name="Sheet name" value="keys"/>
+      <property name="Sheet file" value="keys.kicad_sch"/>
+      <sheetpath names="/keys/" tstamps="/992a99a9-d4d3-4d73-adc0-35ca54627bd9/"/>
+      <tstamp>cb2164e5-dbda-4d51-8658-a89c9911a122</tstamp>
+    </comp>
+    <comp ref="SW7">
+      <value>NO_BUTTON_K2-1102SP-E4SC-04</value>
+      <footprint>Button_Switch_SMD:SW_SPST_PTS645</footprint>
+      <fields>
+        <field name="LCSC">C136669</field>
+        <field name="MFG">Korean Hroparts Elec</field>
+        <field name="MFG PN">K2-1102SP-E4SC-04</field>
+      </fields>
+      <libsource lib="jeremy" part="NO_BUTTON_K2-1102SP-E4SC-04" description="MEC 5E single pole normally-open tactile switch"/>
+      <property name="MFG" value="Korean Hroparts Elec"/>
+      <property name="MFG PN" value="K2-1102SP-E4SC-04"/>
+      <property name="LCSC" value="C136669"/>
+      <property name="Sheet name" value="keys"/>
+      <property name="Sheet file" value="keys.kicad_sch"/>
+      <sheetpath names="/keys/" tstamps="/992a99a9-d4d3-4d73-adc0-35ca54627bd9/"/>
+      <tstamp>cfc874f1-be75-49f1-bc01-8182b07139b9</tstamp>
+    </comp>
+    <comp ref="SW8">
+      <value>NO_BUTTON_K2-1102SP-E4SC-04</value>
+      <footprint>Button_Switch_SMD:SW_SPST_PTS645</footprint>
+      <fields>
+        <field name="LCSC">C136669</field>
+        <field name="MFG">Korean Hroparts Elec</field>
+        <field name="MFG PN">K2-1102SP-E4SC-04</field>
+      </fields>
+      <libsource lib="jeremy" part="NO_BUTTON_K2-1102SP-E4SC-04" description="MEC 5E single pole normally-open tactile switch"/>
+      <property name="MFG" value="Korean Hroparts Elec"/>
+      <property name="MFG PN" value="K2-1102SP-E4SC-04"/>
+      <property name="LCSC" value="C136669"/>
+      <property name="Sheet name" value="keys"/>
+      <property name="Sheet file" value="keys.kicad_sch"/>
+      <sheetpath names="/keys/" tstamps="/992a99a9-d4d3-4d73-adc0-35ca54627bd9/"/>
+      <tstamp>4ee9de35-5047-4a1b-807b-2bbd6cff2670</tstamp>
+    </comp>
+    <comp ref="SW9">
+      <value>NO_BUTTON_K2-1102SP-E4SC-04</value>
+      <footprint>Button_Switch_SMD:SW_SPST_PTS645</footprint>
+      <fields>
+        <field name="LCSC">C136669</field>
+        <field name="MFG">Korean Hroparts Elec</field>
+        <field name="MFG PN">K2-1102SP-E4SC-04</field>
+      </fields>
+      <libsource lib="jeremy" part="NO_BUTTON_K2-1102SP-E4SC-04" description="MEC 5E single pole normally-open tactile switch"/>
+      <property name="MFG" value="Korean Hroparts Elec"/>
+      <property name="MFG PN" value="K2-1102SP-E4SC-04"/>
+      <property name="LCSC" value="C136669"/>
+      <property name="Sheet name" value="keys"/>
+      <property name="Sheet file" value="keys.kicad_sch"/>
+      <sheetpath names="/keys/" tstamps="/992a99a9-d4d3-4d73-adc0-35ca54627bd9/"/>
+      <tstamp>771a83e3-12ac-42e7-973b-bc45e6145ca8</tstamp>
+    </comp>
+    <comp ref="SW10">
+      <value>NO_BUTTON_K2-1102SP-E4SC-04</value>
+      <footprint>Button_Switch_SMD:SW_SPST_PTS645</footprint>
+      <fields>
+        <field name="LCSC">C136669</field>
+        <field name="MFG">Korean Hroparts Elec</field>
+        <field name="MFG PN">K2-1102SP-E4SC-04</field>
+      </fields>
+      <libsource lib="jeremy" part="NO_BUTTON_K2-1102SP-E4SC-04" description="MEC 5E single pole normally-open tactile switch"/>
+      <property name="MFG" value="Korean Hroparts Elec"/>
+      <property name="MFG PN" value="K2-1102SP-E4SC-04"/>
+      <property name="LCSC" value="C136669"/>
+      <property name="Sheet name" value="keys"/>
+      <property name="Sheet file" value="keys.kicad_sch"/>
+      <sheetpath names="/keys/" tstamps="/992a99a9-d4d3-4d73-adc0-35ca54627bd9/"/>
+      <tstamp>907a82ba-e58f-43c5-bbb2-3322c26d0c4a</tstamp>
+    </comp>
+    <comp ref="SW11">
+      <value>NO_BUTTON_K2-1102SP-E4SC-04</value>
+      <footprint>Button_Switch_SMD:SW_SPST_PTS645</footprint>
+      <fields>
+        <field name="LCSC">C136669</field>
+        <field name="MFG">Korean Hroparts Elec</field>
+        <field name="MFG PN">K2-1102SP-E4SC-04</field>
+      </fields>
+      <libsource lib="jeremy" part="NO_BUTTON_K2-1102SP-E4SC-04" description="MEC 5E single pole normally-open tactile switch"/>
+      <property name="MFG" value="Korean Hroparts Elec"/>
+      <property name="MFG PN" value="K2-1102SP-E4SC-04"/>
+      <property name="LCSC" value="C136669"/>
+      <property name="Sheet name" value="keys"/>
+      <property name="Sheet file" value="keys.kicad_sch"/>
+      <sheetpath names="/keys/" tstamps="/992a99a9-d4d3-4d73-adc0-35ca54627bd9/"/>
+      <tstamp>5997b777-70d3-4612-83f5-c16191c563bb</tstamp>
+    </comp>
+    <comp ref="SW12">
+      <value>NO_BUTTON_K2-1102SP-E4SC-04</value>
+      <footprint>Button_Switch_SMD:SW_SPST_PTS645</footprint>
+      <fields>
+        <field name="LCSC">C136669</field>
+        <field name="MFG">Korean Hroparts Elec</field>
+        <field name="MFG PN">K2-1102SP-E4SC-04</field>
+      </fields>
+      <libsource lib="jeremy" part="NO_BUTTON_K2-1102SP-E4SC-04" description="MEC 5E single pole normally-open tactile switch"/>
+      <property name="MFG" value="Korean Hroparts Elec"/>
+      <property name="MFG PN" value="K2-1102SP-E4SC-04"/>
+      <property name="LCSC" value="C136669"/>
+      <property name="Sheet name" value="keys"/>
+      <property name="Sheet file" value="keys.kicad_sch"/>
+      <sheetpath names="/keys/" tstamps="/992a99a9-d4d3-4d73-adc0-35ca54627bd9/"/>
+      <tstamp>3169bbba-ce5c-4c5e-bc06-0e04218324d6</tstamp>
+    </comp>
+    <comp ref="SW13">
+      <value>NO_BUTTON_K2-1102SP-E4SC-04</value>
+      <footprint>Button_Switch_SMD:SW_SPST_PTS645</footprint>
+      <fields>
+        <field name="LCSC">C136669</field>
+        <field name="MFG">Korean Hroparts Elec</field>
+        <field name="MFG PN">K2-1102SP-E4SC-04</field>
+      </fields>
+      <libsource lib="jeremy" part="NO_BUTTON_K2-1102SP-E4SC-04" description="MEC 5E single pole normally-open tactile switch"/>
+      <property name="MFG" value="Korean Hroparts Elec"/>
+      <property name="MFG PN" value="K2-1102SP-E4SC-04"/>
+      <property name="LCSC" value="C136669"/>
+      <property name="Sheet name" value="keys"/>
+      <property name="Sheet file" value="keys.kicad_sch"/>
+      <sheetpath names="/keys/" tstamps="/992a99a9-d4d3-4d73-adc0-35ca54627bd9/"/>
+      <tstamp>5bb4872f-5f6e-411e-b59b-1b0822b42ef4</tstamp>
+    </comp>
+    <comp ref="SW14">
+      <value>NO_BUTTON_K2-1102SP-E4SC-04</value>
+      <footprint>Button_Switch_SMD:SW_SPST_PTS645</footprint>
+      <fields>
+        <field name="LCSC">C136669</field>
+        <field name="MFG">Korean Hroparts Elec</field>
+        <field name="MFG PN">K2-1102SP-E4SC-04</field>
+      </fields>
+      <libsource lib="jeremy" part="NO_BUTTON_K2-1102SP-E4SC-04" description="MEC 5E single pole normally-open tactile switch"/>
+      <property name="MFG" value="Korean Hroparts Elec"/>
+      <property name="MFG PN" value="K2-1102SP-E4SC-04"/>
+      <property name="LCSC" value="C136669"/>
+      <property name="Sheet name" value="keys"/>
+      <property name="Sheet file" value="keys.kicad_sch"/>
+      <sheetpath names="/keys/" tstamps="/992a99a9-d4d3-4d73-adc0-35ca54627bd9/"/>
+      <tstamp>3114160b-7787-4adf-9e7b-d6d9b3586884</tstamp>
+    </comp>
+    <comp ref="SW15">
+      <value>NO_BUTTON_K2-1102SP-E4SC-04</value>
+      <footprint>Button_Switch_SMD:SW_SPST_PTS645</footprint>
+      <fields>
+        <field name="LCSC">C136669</field>
+        <field name="MFG">Korean Hroparts Elec</field>
+        <field name="MFG PN">K2-1102SP-E4SC-04</field>
+      </fields>
+      <libsource lib="jeremy" part="NO_BUTTON_K2-1102SP-E4SC-04" description="MEC 5E single pole normally-open tactile switch"/>
+      <property name="MFG" value="Korean Hroparts Elec"/>
+      <property name="MFG PN" value="K2-1102SP-E4SC-04"/>
+      <property name="LCSC" value="C136669"/>
+      <property name="Sheet name" value="keys"/>
+      <property name="Sheet file" value="keys.kicad_sch"/>
+      <sheetpath names="/keys/" tstamps="/992a99a9-d4d3-4d73-adc0-35ca54627bd9/"/>
+      <tstamp>85bd380f-9c60-420b-830f-75bb0a96ef1d</tstamp>
+    </comp>
+    <comp ref="SW16">
+      <value>NO_BUTTON_K2-1102SP-E4SC-04</value>
+      <footprint>Button_Switch_SMD:SW_SPST_PTS645</footprint>
+      <fields>
+        <field name="LCSC">C136669</field>
+        <field name="MFG">Korean Hroparts Elec</field>
+        <field name="MFG PN">K2-1102SP-E4SC-04</field>
+      </fields>
+      <libsource lib="jeremy" part="NO_BUTTON_K2-1102SP-E4SC-04" description="MEC 5E single pole normally-open tactile switch"/>
+      <property name="MFG" value="Korean Hroparts Elec"/>
+      <property name="MFG PN" value="K2-1102SP-E4SC-04"/>
+      <property name="LCSC" value="C136669"/>
+      <property name="Sheet name" value="keys"/>
+      <property name="Sheet file" value="keys.kicad_sch"/>
+      <sheetpath names="/keys/" tstamps="/992a99a9-d4d3-4d73-adc0-35ca54627bd9/"/>
+      <tstamp>e1aa1987-94cb-497b-996a-ac0c6abbd226</tstamp>
+    </comp>
+    <comp ref="SW17">
+      <value>NO_BUTTON_K2-1102SP-E4SC-04</value>
+      <footprint>Button_Switch_SMD:SW_SPST_PTS645</footprint>
+      <fields>
+        <field name="LCSC">C136669</field>
+        <field name="MFG">Korean Hroparts Elec</field>
+        <field name="MFG PN">K2-1102SP-E4SC-04</field>
+      </fields>
+      <libsource lib="jeremy" part="NO_BUTTON_K2-1102SP-E4SC-04" description="MEC 5E single pole normally-open tactile switch"/>
+      <property name="MFG" value="Korean Hroparts Elec"/>
+      <property name="MFG PN" value="K2-1102SP-E4SC-04"/>
+      <property name="LCSC" value="C136669"/>
+      <property name="Sheet name" value="keys"/>
+      <property name="Sheet file" value="keys.kicad_sch"/>
+      <sheetpath names="/keys/" tstamps="/992a99a9-d4d3-4d73-adc0-35ca54627bd9/"/>
+      <tstamp>94a7f494-a8da-407d-8573-d9c3812440cd</tstamp>
+    </comp>
+    <comp ref="SW18">
+      <value>NO_BUTTON_K2-1102SP-E4SC-04</value>
+      <footprint>Button_Switch_SMD:SW_SPST_PTS645</footprint>
+      <fields>
+        <field name="LCSC">C136669</field>
+        <field name="MFG">Korean Hroparts Elec</field>
+        <field name="MFG PN">K2-1102SP-E4SC-04</field>
+      </fields>
+      <libsource lib="jeremy" part="NO_BUTTON_K2-1102SP-E4SC-04" description="MEC 5E single pole normally-open tactile switch"/>
+      <property name="MFG" value="Korean Hroparts Elec"/>
+      <property name="MFG PN" value="K2-1102SP-E4SC-04"/>
+      <property name="LCSC" value="C136669"/>
+      <property name="Sheet name" value="keys"/>
+      <property name="Sheet file" value="keys.kicad_sch"/>
+      <sheetpath names="/keys/" tstamps="/992a99a9-d4d3-4d73-adc0-35ca54627bd9/"/>
+      <tstamp>64856ac0-ef15-46f7-bcf1-035decafdaa2</tstamp>
+    </comp>
+    <comp ref="SW19">
+      <value>NO_BUTTON_K2-1102SP-E4SC-04</value>
+      <footprint>Button_Switch_SMD:SW_SPST_PTS645</footprint>
+      <fields>
+        <field name="LCSC">C136669</field>
+        <field name="MFG">Korean Hroparts Elec</field>
+        <field name="MFG PN">K2-1102SP-E4SC-04</field>
+      </fields>
+      <libsource lib="jeremy" part="NO_BUTTON_K2-1102SP-E4SC-04" description="MEC 5E single pole normally-open tactile switch"/>
+      <property name="MFG" value="Korean Hroparts Elec"/>
+      <property name="MFG PN" value="K2-1102SP-E4SC-04"/>
+      <property name="LCSC" value="C136669"/>
+      <property name="Sheet name" value="keys"/>
+      <property name="Sheet file" value="keys.kicad_sch"/>
+      <sheetpath names="/keys/" tstamps="/992a99a9-d4d3-4d73-adc0-35ca54627bd9/"/>
+      <tstamp>e524ad3e-c04c-4d98-a66f-e4fb009a49d3</tstamp>
+    </comp>
+    <comp ref="SW20">
+      <value>NO_BUTTON_K2-1102SP-E4SC-04</value>
+      <footprint>Button_Switch_SMD:SW_SPST_PTS645</footprint>
+      <fields>
+        <field name="LCSC">C136669</field>
+        <field name="MFG">Korean Hroparts Elec</field>
+        <field name="MFG PN">K2-1102SP-E4SC-04</field>
+      </fields>
+      <libsource lib="jeremy" part="NO_BUTTON_K2-1102SP-E4SC-04" description="MEC 5E single pole normally-open tactile switch"/>
+      <property name="MFG" value="Korean Hroparts Elec"/>
+      <property name="MFG PN" value="K2-1102SP-E4SC-04"/>
+      <property name="LCSC" value="C136669"/>
+      <property name="Sheet name" value="keys"/>
+      <property name="Sheet file" value="keys.kicad_sch"/>
+      <sheetpath names="/keys/" tstamps="/992a99a9-d4d3-4d73-adc0-35ca54627bd9/"/>
+      <tstamp>d0722d7d-d54e-4506-a9ee-a9ba2e137ca2</tstamp>
+    </comp>
+    <comp ref="SW21">
+      <value>NO_BUTTON_K2-1102SP-E4SC-04</value>
+      <footprint>Button_Switch_SMD:SW_SPST_PTS645</footprint>
+      <fields>
+        <field name="LCSC">C136669</field>
+        <field name="MFG">Korean Hroparts Elec</field>
+        <field name="MFG PN">K2-1102SP-E4SC-04</field>
+      </fields>
+      <libsource lib="jeremy" part="NO_BUTTON_K2-1102SP-E4SC-04" description="MEC 5E single pole normally-open tactile switch"/>
+      <property name="MFG" value="Korean Hroparts Elec"/>
+      <property name="MFG PN" value="K2-1102SP-E4SC-04"/>
+      <property name="LCSC" value="C136669"/>
+      <property name="Sheet name" value="keys"/>
+      <property name="Sheet file" value="keys.kicad_sch"/>
+      <sheetpath names="/keys/" tstamps="/992a99a9-d4d3-4d73-adc0-35ca54627bd9/"/>
+      <tstamp>5b65d792-7e99-4283-99ef-002bd84502c5</tstamp>
+    </comp>
+    <comp ref="SW22">
+      <value>NO_BUTTON_K2-1102SP-E4SC-04</value>
+      <footprint>Button_Switch_SMD:SW_SPST_PTS645</footprint>
+      <fields>
+        <field name="LCSC">C136669</field>
+        <field name="MFG">Korean Hroparts Elec</field>
+        <field name="MFG PN">K2-1102SP-E4SC-04</field>
+      </fields>
+      <libsource lib="jeremy" part="NO_BUTTON_K2-1102SP-E4SC-04" description="MEC 5E single pole normally-open tactile switch"/>
+      <property name="MFG" value="Korean Hroparts Elec"/>
+      <property name="MFG PN" value="K2-1102SP-E4SC-04"/>
+      <property name="LCSC" value="C136669"/>
+      <property name="Sheet name" value="keys"/>
+      <property name="Sheet file" value="keys.kicad_sch"/>
+      <sheetpath names="/keys/" tstamps="/992a99a9-d4d3-4d73-adc0-35ca54627bd9/"/>
+      <tstamp>72c447aa-847a-4133-ba0e-96101b4697ab</tstamp>
+    </comp>
+    <comp ref="SW23">
+      <value>NO_BUTTON_K2-1102SP-E4SC-04</value>
+      <footprint>Button_Switch_SMD:SW_SPST_PTS645</footprint>
+      <fields>
+        <field name="LCSC">C136669</field>
+        <field name="MFG">Korean Hroparts Elec</field>
+        <field name="MFG PN">K2-1102SP-E4SC-04</field>
+      </fields>
+      <libsource lib="jeremy" part="NO_BUTTON_K2-1102SP-E4SC-04" description="MEC 5E single pole normally-open tactile switch"/>
+      <property name="MFG" value="Korean Hroparts Elec"/>
+      <property name="MFG PN" value="K2-1102SP-E4SC-04"/>
+      <property name="LCSC" value="C136669"/>
+      <property name="Sheet name" value="keys"/>
+      <property name="Sheet file" value="keys.kicad_sch"/>
+      <sheetpath names="/keys/" tstamps="/992a99a9-d4d3-4d73-adc0-35ca54627bd9/"/>
+      <tstamp>106752b3-cb51-4f91-9fa5-a7b7dd3e7899</tstamp>
+    </comp>
+    <comp ref="SW24">
+      <value>NO_BUTTON_K2-1102SP-E4SC-04</value>
+      <footprint>Button_Switch_SMD:SW_SPST_PTS645</footprint>
+      <fields>
+        <field name="LCSC">C136669</field>
+        <field name="MFG">Korean Hroparts Elec</field>
+        <field name="MFG PN">K2-1102SP-E4SC-04</field>
+      </fields>
+      <libsource lib="jeremy" part="NO_BUTTON_K2-1102SP-E4SC-04" description="MEC 5E single pole normally-open tactile switch"/>
+      <property name="MFG" value="Korean Hroparts Elec"/>
+      <property name="MFG PN" value="K2-1102SP-E4SC-04"/>
+      <property name="LCSC" value="C136669"/>
+      <property name="Sheet name" value="keys"/>
+      <property name="Sheet file" value="keys.kicad_sch"/>
+      <sheetpath names="/keys/" tstamps="/992a99a9-d4d3-4d73-adc0-35ca54627bd9/"/>
+      <tstamp>65d0faa0-bcb2-4083-8ce2-aa274d6ca394</tstamp>
+    </comp>
+    <comp ref="SW25">
+      <value>NO_BUTTON_K2-1102SP-E4SC-04</value>
+      <footprint>Button_Switch_SMD:SW_SPST_PTS645</footprint>
+      <fields>
+        <field name="LCSC">C136669</field>
+        <field name="MFG">Korean Hroparts Elec</field>
+        <field name="MFG PN">K2-1102SP-E4SC-04</field>
+      </fields>
+      <libsource lib="jeremy" part="NO_BUTTON_K2-1102SP-E4SC-04" description="MEC 5E single pole normally-open tactile switch"/>
+      <property name="MFG" value="Korean Hroparts Elec"/>
+      <property name="MFG PN" value="K2-1102SP-E4SC-04"/>
+      <property name="LCSC" value="C136669"/>
+      <property name="Sheet name" value="keys"/>
+      <property name="Sheet file" value="keys.kicad_sch"/>
+      <sheetpath names="/keys/" tstamps="/992a99a9-d4d3-4d73-adc0-35ca54627bd9/"/>
+      <tstamp>f84c187d-f2ca-4c81-91bf-4238f71fee1c</tstamp>
+    </comp>
+    <comp ref="SW26">
+      <value>NO_BUTTON_K2-1102SP-E4SC-04</value>
+      <footprint>Button_Switch_SMD:SW_SPST_PTS645</footprint>
+      <fields>
+        <field name="LCSC">C136669</field>
+        <field name="MFG">Korean Hroparts Elec</field>
+        <field name="MFG PN">K2-1102SP-E4SC-04</field>
+      </fields>
+      <libsource lib="jeremy" part="NO_BUTTON_K2-1102SP-E4SC-04" description="MEC 5E single pole normally-open tactile switch"/>
+      <property name="MFG" value="Korean Hroparts Elec"/>
+      <property name="MFG PN" value="K2-1102SP-E4SC-04"/>
+      <property name="LCSC" value="C136669"/>
+      <property name="Sheet name" value="keys"/>
+      <property name="Sheet file" value="keys.kicad_sch"/>
+      <sheetpath names="/keys/" tstamps="/992a99a9-d4d3-4d73-adc0-35ca54627bd9/"/>
+      <tstamp>e51e3db2-37f4-4cfd-9926-e22e86d76f58</tstamp>
+    </comp>
+    <comp ref="SW27">
+      <value>NO_BUTTON_K2-1102SP-E4SC-04</value>
+      <footprint>Button_Switch_SMD:SW_SPST_PTS645</footprint>
+      <fields>
+        <field name="LCSC">C136669</field>
+        <field name="MFG">Korean Hroparts Elec</field>
+        <field name="MFG PN">K2-1102SP-E4SC-04</field>
+      </fields>
+      <libsource lib="jeremy" part="NO_BUTTON_K2-1102SP-E4SC-04" description="MEC 5E single pole normally-open tactile switch"/>
+      <property name="MFG" value="Korean Hroparts Elec"/>
+      <property name="MFG PN" value="K2-1102SP-E4SC-04"/>
+      <property name="LCSC" value="C136669"/>
+      <property name="Sheet name" value="keys"/>
+      <property name="Sheet file" value="keys.kicad_sch"/>
+      <sheetpath names="/keys/" tstamps="/992a99a9-d4d3-4d73-adc0-35ca54627bd9/"/>
+      <tstamp>12f2010b-05a1-413c-aa27-9d8998f9cdef</tstamp>
+    </comp>
+    <comp ref="SW28">
+      <value>NO_BUTTON_K2-1102SP-E4SC-04</value>
+      <footprint>Button_Switch_SMD:SW_SPST_PTS645</footprint>
+      <fields>
+        <field name="LCSC">C136669</field>
+        <field name="MFG">Korean Hroparts Elec</field>
+        <field name="MFG PN">K2-1102SP-E4SC-04</field>
+      </fields>
+      <libsource lib="jeremy" part="NO_BUTTON_K2-1102SP-E4SC-04" description="MEC 5E single pole normally-open tactile switch"/>
+      <property name="MFG" value="Korean Hroparts Elec"/>
+      <property name="MFG PN" value="K2-1102SP-E4SC-04"/>
+      <property name="LCSC" value="C136669"/>
+      <property name="Sheet name" value="keys"/>
+      <property name="Sheet file" value="keys.kicad_sch"/>
+      <sheetpath names="/keys/" tstamps="/992a99a9-d4d3-4d73-adc0-35ca54627bd9/"/>
+      <tstamp>c5c20e43-8ef4-49ea-8d99-bd92a4c2a3b5</tstamp>
+    </comp>
+    <comp ref="SW29">
+      <value>NO_BUTTON_K2-1102SP-E4SC-04</value>
+      <footprint>Button_Switch_SMD:SW_SPST_PTS645</footprint>
+      <fields>
+        <field name="LCSC">C136669</field>
+        <field name="MFG">Korean Hroparts Elec</field>
+        <field name="MFG PN">K2-1102SP-E4SC-04</field>
+      </fields>
+      <libsource lib="jeremy" part="NO_BUTTON_K2-1102SP-E4SC-04" description="MEC 5E single pole normally-open tactile switch"/>
+      <property name="MFG" value="Korean Hroparts Elec"/>
+      <property name="MFG PN" value="K2-1102SP-E4SC-04"/>
+      <property name="LCSC" value="C136669"/>
+      <property name="Sheet name" value="keys"/>
+      <property name="Sheet file" value="keys.kicad_sch"/>
+      <sheetpath names="/keys/" tstamps="/992a99a9-d4d3-4d73-adc0-35ca54627bd9/"/>
+      <tstamp>6710c512-5e15-4365-80f6-aa326e0f054c</tstamp>
+    </comp>
+    <comp ref="SW30">
+      <value>NO_BUTTON_K2-1102SP-E4SC-04</value>
+      <footprint>Button_Switch_SMD:SW_SPST_PTS645</footprint>
+      <fields>
+        <field name="LCSC">C136669</field>
+        <field name="MFG">Korean Hroparts Elec</field>
+        <field name="MFG PN">K2-1102SP-E4SC-04</field>
+      </fields>
+      <libsource lib="jeremy" part="NO_BUTTON_K2-1102SP-E4SC-04" description="MEC 5E single pole normally-open tactile switch"/>
+      <property name="MFG" value="Korean Hroparts Elec"/>
+      <property name="MFG PN" value="K2-1102SP-E4SC-04"/>
+      <property name="LCSC" value="C136669"/>
+      <property name="Sheet name" value="keys"/>
+      <property name="Sheet file" value="keys.kicad_sch"/>
+      <sheetpath names="/keys/" tstamps="/992a99a9-d4d3-4d73-adc0-35ca54627bd9/"/>
+      <tstamp>17ece27c-1c38-4f36-827c-a729b3e8195b</tstamp>
+    </comp>
+    <comp ref="SW31">
+      <value>NO_BUTTON_K2-1102SP-E4SC-04</value>
+      <footprint>Button_Switch_SMD:SW_SPST_PTS645</footprint>
+      <fields>
+        <field name="LCSC">C136669</field>
+        <field name="MFG">Korean Hroparts Elec</field>
+        <field name="MFG PN">K2-1102SP-E4SC-04</field>
+      </fields>
+      <libsource lib="jeremy" part="NO_BUTTON_K2-1102SP-E4SC-04" description="MEC 5E single pole normally-open tactile switch"/>
+      <property name="MFG" value="Korean Hroparts Elec"/>
+      <property name="MFG PN" value="K2-1102SP-E4SC-04"/>
+      <property name="LCSC" value="C136669"/>
+      <property name="Sheet name" value="keys"/>
+      <property name="Sheet file" value="keys.kicad_sch"/>
+      <sheetpath names="/keys/" tstamps="/992a99a9-d4d3-4d73-adc0-35ca54627bd9/"/>
+      <tstamp>c210f53b-3882-4bd0-8952-f83e25d9200c</tstamp>
+    </comp>
+    <comp ref="SW32">
+      <value>NO_BUTTON_K2-1102SP-E4SC-04</value>
+      <footprint>Button_Switch_SMD:SW_SPST_PTS645</footprint>
+      <fields>
+        <field name="LCSC">C136669</field>
+        <field name="MFG">Korean Hroparts Elec</field>
+        <field name="MFG PN">K2-1102SP-E4SC-04</field>
+      </fields>
+      <libsource lib="jeremy" part="NO_BUTTON_K2-1102SP-E4SC-04" description="MEC 5E single pole normally-open tactile switch"/>
+      <property name="MFG" value="Korean Hroparts Elec"/>
+      <property name="MFG PN" value="K2-1102SP-E4SC-04"/>
+      <property name="LCSC" value="C136669"/>
+      <property name="Sheet name" value="keys"/>
+      <property name="Sheet file" value="keys.kicad_sch"/>
+      <sheetpath names="/keys/" tstamps="/992a99a9-d4d3-4d73-adc0-35ca54627bd9/"/>
+      <tstamp>0a03506b-d880-446f-9300-1c2cc4672685</tstamp>
+    </comp>
+    <comp ref="U26">
+      <value>XRA1201PIG24</value>
+      <footprint>Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm</footprint>
+      <fields>
+        <field name="Digikey">XRA1201PIG24TR-F-ND</field>
+        <field name="LCSC">C517989</field>
+        <field name="MFG">Exar/MaxLinear</field>
+        <field name="MFG PN">XRA1201PIG24</field>
+        <field name="Mouser">701-XRA1201PIG24TR-F</field>
+      </fields>
+      <libsource lib="jeremy" part="XRA1201PIG24" description="I2C IO expander - 16 bit"/>
+      <property name="MFG" value="Exar/MaxLinear"/>
+      <property name="MFG PN" value="XRA1201PIG24"/>
+      <property name="Digikey" value="XRA1201PIG24TR-F-ND"/>
+      <property name="Mouser" value="701-XRA1201PIG24TR-F"/>
+      <property name="LCSC" value="C517989"/>
+      <property name="Sheet name" value="keys"/>
+      <property name="Sheet file" value="keys.kicad_sch"/>
+      <sheetpath names="/keys/" tstamps="/992a99a9-d4d3-4d73-adc0-35ca54627bd9/"/>
+      <tstamp>a93e6d5a-a758-4627-9955-95415cede919</tstamp>
+    </comp>
+    <comp ref="U27">
+      <value>XRA1201PIG24</value>
+      <footprint>Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm</footprint>
+      <fields>
+        <field name="Digikey">XRA1201PIG24TR-F-ND</field>
+        <field name="LCSC">C517989</field>
+        <field name="MFG">Exar/MaxLinear</field>
+        <field name="MFG PN">XRA1201PIG24</field>
+        <field name="Mouser">701-XRA1201PIG24TR-F</field>
+      </fields>
+      <libsource lib="jeremy" part="XRA1201PIG24" description="I2C IO expander - 16 bit"/>
+      <property name="MFG" value="Exar/MaxLinear"/>
+      <property name="MFG PN" value="XRA1201PIG24"/>
+      <property name="Digikey" value="XRA1201PIG24TR-F-ND"/>
+      <property name="Mouser" value="701-XRA1201PIG24TR-F"/>
+      <property name="LCSC" value="C517989"/>
+      <property name="Sheet name" value="keys"/>
+      <property name="Sheet file" value="keys.kicad_sch"/>
+      <sheetpath names="/keys/" tstamps="/992a99a9-d4d3-4d73-adc0-35ca54627bd9/"/>
+      <tstamp>2ef6dd0e-8ff2-487a-958c-e69f2b492bee</tstamp>
+    </comp>
+    <comp ref="C28">
+      <value>C,100n,16V,0402,10%,X5R,85C</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Digikey">1276-1234-1-ND</field>
+        <field name="LCSC">C1525</field>
+        <field name="MFG">Samsung</field>
+        <field name="MFG PN">CL05A104KO5NNNC</field>
+        <field name="P0_Value">100n</field>
+        <field name="P1_Voltage">16V</field>
+        <field name="P2_Package">0402</field>
+        <field name="P3_Tolerance">10%</field>
+        <field name="P4_Tempco">X5R</field>
+        <field name="P5_Maxtemp">85C</field>
+      </fields>
+      <libsource lib="jer_Samsung_MLCC_0402" part="C,100n,16V,0402,10%,X5R,85C" description="Capacitor"/>
+      <property name="P0_Value" value="100n"/>
+      <property name="P1_Voltage" value="16V"/>
+      <property name="P2_Package" value="0402"/>
+      <property name="P3_Tolerance" value="10%"/>
+      <property name="P4_Tempco" value="X5R"/>
+      <property name="P5_Maxtemp" value="85C"/>
+      <property name="MFG" value="Samsung"/>
+      <property name="MFG PN" value="CL05A104KO5NNNC"/>
+      <property name="Digikey" value="1276-1234-1-ND"/>
+      <property name="Mouser" value=""/>
+      <property name="LCSC" value="C1525"/>
+      <property name="Sheet name" value="extra_leds"/>
+      <property name="Sheet file" value="extra_leds.kicad_sch"/>
+      <sheetpath names="/extra_leds/" tstamps="/27316c0a-4d35-4f40-9937-2289022226c5/"/>
+      <tstamp>eadc0246-01e8-4246-a86d-6519af83fa9e</tstamp>
+    </comp>
+    <comp ref="C29">
+      <value>C,100n,16V,0402,10%,X5R,85C</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Digikey">1276-1234-1-ND</field>
+        <field name="LCSC">C1525</field>
+        <field name="MFG">Samsung</field>
+        <field name="MFG PN">CL05A104KO5NNNC</field>
+        <field name="P0_Value">100n</field>
+        <field name="P1_Voltage">16V</field>
+        <field name="P2_Package">0402</field>
+        <field name="P3_Tolerance">10%</field>
+        <field name="P4_Tempco">X5R</field>
+        <field name="P5_Maxtemp">85C</field>
+      </fields>
+      <libsource lib="jer_Samsung_MLCC_0402" part="C,100n,16V,0402,10%,X5R,85C" description="Capacitor"/>
+      <property name="P0_Value" value="100n"/>
+      <property name="P1_Voltage" value="16V"/>
+      <property name="P2_Package" value="0402"/>
+      <property name="P3_Tolerance" value="10%"/>
+      <property name="P4_Tempco" value="X5R"/>
+      <property name="P5_Maxtemp" value="85C"/>
+      <property name="MFG" value="Samsung"/>
+      <property name="MFG PN" value="CL05A104KO5NNNC"/>
+      <property name="Digikey" value="1276-1234-1-ND"/>
+      <property name="Mouser" value=""/>
+      <property name="LCSC" value="C1525"/>
+      <property name="Sheet name" value="extra_leds"/>
+      <property name="Sheet file" value="extra_leds.kicad_sch"/>
+      <sheetpath names="/extra_leds/" tstamps="/27316c0a-4d35-4f40-9937-2289022226c5/"/>
+      <tstamp>3cb993a1-1985-4dc1-a5d7-eee60a78d852</tstamp>
+    </comp>
+    <comp ref="C30">
+      <value>C,100n,16V,0402,10%,X5R,85C</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Digikey">1276-1234-1-ND</field>
+        <field name="LCSC">C1525</field>
+        <field name="MFG">Samsung</field>
+        <field name="MFG PN">CL05A104KO5NNNC</field>
+        <field name="P0_Value">100n</field>
+        <field name="P1_Voltage">16V</field>
+        <field name="P2_Package">0402</field>
+        <field name="P3_Tolerance">10%</field>
+        <field name="P4_Tempco">X5R</field>
+        <field name="P5_Maxtemp">85C</field>
+      </fields>
+      <libsource lib="jer_Samsung_MLCC_0402" part="C,100n,16V,0402,10%,X5R,85C" description="Capacitor"/>
+      <property name="P0_Value" value="100n"/>
+      <property name="P1_Voltage" value="16V"/>
+      <property name="P2_Package" value="0402"/>
+      <property name="P3_Tolerance" value="10%"/>
+      <property name="P4_Tempco" value="X5R"/>
+      <property name="P5_Maxtemp" value="85C"/>
+      <property name="MFG" value="Samsung"/>
+      <property name="MFG PN" value="CL05A104KO5NNNC"/>
+      <property name="Digikey" value="1276-1234-1-ND"/>
+      <property name="Mouser" value=""/>
+      <property name="LCSC" value="C1525"/>
+      <property name="Sheet name" value="extra_leds"/>
+      <property name="Sheet file" value="extra_leds.kicad_sch"/>
+      <sheetpath names="/extra_leds/" tstamps="/27316c0a-4d35-4f40-9937-2289022226c5/"/>
+      <tstamp>82bfaedd-0e0b-4e63-acab-65462b7ca3ef</tstamp>
+    </comp>
+    <comp ref="C31">
+      <value>C,100n,16V,0402,10%,X5R,85C</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Digikey">1276-1234-1-ND</field>
+        <field name="LCSC">C1525</field>
+        <field name="MFG">Samsung</field>
+        <field name="MFG PN">CL05A104KO5NNNC</field>
+        <field name="P0_Value">100n</field>
+        <field name="P1_Voltage">16V</field>
+        <field name="P2_Package">0402</field>
+        <field name="P3_Tolerance">10%</field>
+        <field name="P4_Tempco">X5R</field>
+        <field name="P5_Maxtemp">85C</field>
+      </fields>
+      <libsource lib="jer_Samsung_MLCC_0402" part="C,100n,16V,0402,10%,X5R,85C" description="Capacitor"/>
+      <property name="P0_Value" value="100n"/>
+      <property name="P1_Voltage" value="16V"/>
+      <property name="P2_Package" value="0402"/>
+      <property name="P3_Tolerance" value="10%"/>
+      <property name="P4_Tempco" value="X5R"/>
+      <property name="P5_Maxtemp" value="85C"/>
+      <property name="MFG" value="Samsung"/>
+      <property name="MFG PN" value="CL05A104KO5NNNC"/>
+      <property name="Digikey" value="1276-1234-1-ND"/>
+      <property name="Mouser" value=""/>
+      <property name="LCSC" value="C1525"/>
+      <property name="Sheet name" value="extra_leds"/>
+      <property name="Sheet file" value="extra_leds.kicad_sch"/>
+      <sheetpath names="/extra_leds/" tstamps="/27316c0a-4d35-4f40-9937-2289022226c5/"/>
+      <tstamp>882e3974-65f8-4db5-b77c-2cf335d40fae</tstamp>
+    </comp>
+    <comp ref="C32">
+      <value>C,100n,16V,0402,10%,X5R,85C</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Digikey">1276-1234-1-ND</field>
+        <field name="LCSC">C1525</field>
+        <field name="MFG">Samsung</field>
+        <field name="MFG PN">CL05A104KO5NNNC</field>
+        <field name="P0_Value">100n</field>
+        <field name="P1_Voltage">16V</field>
+        <field name="P2_Package">0402</field>
+        <field name="P3_Tolerance">10%</field>
+        <field name="P4_Tempco">X5R</field>
+        <field name="P5_Maxtemp">85C</field>
+      </fields>
+      <libsource lib="jer_Samsung_MLCC_0402" part="C,100n,16V,0402,10%,X5R,85C" description="Capacitor"/>
+      <property name="P0_Value" value="100n"/>
+      <property name="P1_Voltage" value="16V"/>
+      <property name="P2_Package" value="0402"/>
+      <property name="P3_Tolerance" value="10%"/>
+      <property name="P4_Tempco" value="X5R"/>
+      <property name="P5_Maxtemp" value="85C"/>
+      <property name="MFG" value="Samsung"/>
+      <property name="MFG PN" value="CL05A104KO5NNNC"/>
+      <property name="Digikey" value="1276-1234-1-ND"/>
+      <property name="Mouser" value=""/>
+      <property name="LCSC" value="C1525"/>
+      <property name="Sheet name" value="extra_leds"/>
+      <property name="Sheet file" value="extra_leds.kicad_sch"/>
+      <sheetpath names="/extra_leds/" tstamps="/27316c0a-4d35-4f40-9937-2289022226c5/"/>
+      <tstamp>b8c6c39e-931e-4e28-b10c-01fba681c6c5</tstamp>
+    </comp>
+    <comp ref="C33">
+      <value>C,100n,16V,0402,10%,X5R,85C</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Digikey">1276-1234-1-ND</field>
+        <field name="LCSC">C1525</field>
+        <field name="MFG">Samsung</field>
+        <field name="MFG PN">CL05A104KO5NNNC</field>
+        <field name="P0_Value">100n</field>
+        <field name="P1_Voltage">16V</field>
+        <field name="P2_Package">0402</field>
+        <field name="P3_Tolerance">10%</field>
+        <field name="P4_Tempco">X5R</field>
+        <field name="P5_Maxtemp">85C</field>
+      </fields>
+      <libsource lib="jer_Samsung_MLCC_0402" part="C,100n,16V,0402,10%,X5R,85C" description="Capacitor"/>
+      <property name="P0_Value" value="100n"/>
+      <property name="P1_Voltage" value="16V"/>
+      <property name="P2_Package" value="0402"/>
+      <property name="P3_Tolerance" value="10%"/>
+      <property name="P4_Tempco" value="X5R"/>
+      <property name="P5_Maxtemp" value="85C"/>
+      <property name="MFG" value="Samsung"/>
+      <property name="MFG PN" value="CL05A104KO5NNNC"/>
+      <property name="Digikey" value="1276-1234-1-ND"/>
+      <property name="Mouser" value=""/>
+      <property name="LCSC" value="C1525"/>
+      <property name="Sheet name" value="extra_leds"/>
+      <property name="Sheet file" value="extra_leds.kicad_sch"/>
+      <sheetpath names="/extra_leds/" tstamps="/27316c0a-4d35-4f40-9937-2289022226c5/"/>
+      <tstamp>14d5f127-f6a9-415d-96dc-3ec620be87f2</tstamp>
+    </comp>
+    <comp ref="C34">
+      <value>C,100n,16V,0402,10%,X5R,85C</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Digikey">1276-1234-1-ND</field>
+        <field name="LCSC">C1525</field>
+        <field name="MFG">Samsung</field>
+        <field name="MFG PN">CL05A104KO5NNNC</field>
+        <field name="P0_Value">100n</field>
+        <field name="P1_Voltage">16V</field>
+        <field name="P2_Package">0402</field>
+        <field name="P3_Tolerance">10%</field>
+        <field name="P4_Tempco">X5R</field>
+        <field name="P5_Maxtemp">85C</field>
+      </fields>
+      <libsource lib="jer_Samsung_MLCC_0402" part="C,100n,16V,0402,10%,X5R,85C" description="Capacitor"/>
+      <property name="P0_Value" value="100n"/>
+      <property name="P1_Voltage" value="16V"/>
+      <property name="P2_Package" value="0402"/>
+      <property name="P3_Tolerance" value="10%"/>
+      <property name="P4_Tempco" value="X5R"/>
+      <property name="P5_Maxtemp" value="85C"/>
+      <property name="MFG" value="Samsung"/>
+      <property name="MFG PN" value="CL05A104KO5NNNC"/>
+      <property name="Digikey" value="1276-1234-1-ND"/>
+      <property name="Mouser" value=""/>
+      <property name="LCSC" value="C1525"/>
+      <property name="Sheet name" value="extra_leds"/>
+      <property name="Sheet file" value="extra_leds.kicad_sch"/>
+      <sheetpath names="/extra_leds/" tstamps="/27316c0a-4d35-4f40-9937-2289022226c5/"/>
+      <tstamp>e9246c6a-0a65-420a-9949-0da56a8e4087</tstamp>
+    </comp>
+    <comp ref="C35">
+      <value>C,100n,16V,0402,10%,X5R,85C</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="Digikey">1276-1234-1-ND</field>
+        <field name="LCSC">C1525</field>
+        <field name="MFG">Samsung</field>
+        <field name="MFG PN">CL05A104KO5NNNC</field>
+        <field name="P0_Value">100n</field>
+        <field name="P1_Voltage">16V</field>
+        <field name="P2_Package">0402</field>
+        <field name="P3_Tolerance">10%</field>
+        <field name="P4_Tempco">X5R</field>
+        <field name="P5_Maxtemp">85C</field>
+      </fields>
+      <libsource lib="jer_Samsung_MLCC_0402" part="C,100n,16V,0402,10%,X5R,85C" description="Capacitor"/>
+      <property name="P0_Value" value="100n"/>
+      <property name="P1_Voltage" value="16V"/>
+      <property name="P2_Package" value="0402"/>
+      <property name="P3_Tolerance" value="10%"/>
+      <property name="P4_Tempco" value="X5R"/>
+      <property name="P5_Maxtemp" value="85C"/>
+      <property name="MFG" value="Samsung"/>
+      <property name="MFG PN" value="CL05A104KO5NNNC"/>
+      <property name="Digikey" value="1276-1234-1-ND"/>
+      <property name="Mouser" value=""/>
+      <property name="LCSC" value="C1525"/>
+      <property name="Sheet name" value="extra_leds"/>
+      <property name="Sheet file" value="extra_leds.kicad_sch"/>
+      <sheetpath names="/extra_leds/" tstamps="/27316c0a-4d35-4f40-9937-2289022226c5/"/>
+      <tstamp>2ef6e83d-51e0-4d90-a1f1-613d5bfbe996</tstamp>
+    </comp>
+    <comp ref="U28">
+      <value>WS2812E_LED</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <fields>
+        <field name="LCSC">C139127</field>
+        <field name="MFG">Worldsemi</field>
+        <field name="MFG PN">WS2812E</field>
+      </fields>
+      <libsource lib="jeremy" part="WS2812E_LED" description="WS2812B compatible LED, 1.5x1.5mm"/>
+      <property name="MFG" value="Worldsemi"/>
+      <property name="MFG PN" value="WS2812E"/>
+      <property name="LCSC" value="C139127"/>
+      <property name="Sheet name" value="extra_leds"/>
+      <property name="Sheet file" value="extra_leds.kicad_sch"/>
+      <sheetpath names="/extra_leds/" tstamps="/27316c0a-4d35-4f40-9937-2289022226c5/"/>
+      <tstamp>847bd363-9ee5-4295-9abc-cdfb70e20bf9</tstamp>
+    </comp>
+    <comp ref="U29">
+      <value>WS2812E_LED</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <fields>
+        <field name="LCSC">C139127</field>
+        <field name="MFG">Worldsemi</field>
+        <field name="MFG PN">WS2812E</field>
+      </fields>
+      <libsource lib="jeremy" part="WS2812E_LED" description="WS2812B compatible LED, 1.5x1.5mm"/>
+      <property name="MFG" value="Worldsemi"/>
+      <property name="MFG PN" value="WS2812E"/>
+      <property name="LCSC" value="C139127"/>
+      <property name="Sheet name" value="extra_leds"/>
+      <property name="Sheet file" value="extra_leds.kicad_sch"/>
+      <sheetpath names="/extra_leds/" tstamps="/27316c0a-4d35-4f40-9937-2289022226c5/"/>
+      <tstamp>dc8ec6a7-4275-485d-ab8d-37e86de813c5</tstamp>
+    </comp>
+    <comp ref="U30">
+      <value>WS2812E_LED</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <fields>
+        <field name="LCSC">C139127</field>
+        <field name="MFG">Worldsemi</field>
+        <field name="MFG PN">WS2812E</field>
+      </fields>
+      <libsource lib="jeremy" part="WS2812E_LED" description="WS2812B compatible LED, 1.5x1.5mm"/>
+      <property name="MFG" value="Worldsemi"/>
+      <property name="MFG PN" value="WS2812E"/>
+      <property name="LCSC" value="C139127"/>
+      <property name="Sheet name" value="extra_leds"/>
+      <property name="Sheet file" value="extra_leds.kicad_sch"/>
+      <sheetpath names="/extra_leds/" tstamps="/27316c0a-4d35-4f40-9937-2289022226c5/"/>
+      <tstamp>b4f98225-ca56-42ee-86b2-56721ab6385e</tstamp>
+    </comp>
+    <comp ref="U31">
+      <value>WS2812E_LED</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <fields>
+        <field name="LCSC">C139127</field>
+        <field name="MFG">Worldsemi</field>
+        <field name="MFG PN">WS2812E</field>
+      </fields>
+      <libsource lib="jeremy" part="WS2812E_LED" description="WS2812B compatible LED, 1.5x1.5mm"/>
+      <property name="MFG" value="Worldsemi"/>
+      <property name="MFG PN" value="WS2812E"/>
+      <property name="LCSC" value="C139127"/>
+      <property name="Sheet name" value="extra_leds"/>
+      <property name="Sheet file" value="extra_leds.kicad_sch"/>
+      <sheetpath names="/extra_leds/" tstamps="/27316c0a-4d35-4f40-9937-2289022226c5/"/>
+      <tstamp>68c9121b-7676-400d-8962-e6cbb1e220c7</tstamp>
+    </comp>
+    <comp ref="U32">
+      <value>WS2812E_LED</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <fields>
+        <field name="LCSC">C139127</field>
+        <field name="MFG">Worldsemi</field>
+        <field name="MFG PN">WS2812E</field>
+      </fields>
+      <libsource lib="jeremy" part="WS2812E_LED" description="WS2812B compatible LED, 1.5x1.5mm"/>
+      <property name="MFG" value="Worldsemi"/>
+      <property name="MFG PN" value="WS2812E"/>
+      <property name="LCSC" value="C139127"/>
+      <property name="Sheet name" value="extra_leds"/>
+      <property name="Sheet file" value="extra_leds.kicad_sch"/>
+      <sheetpath names="/extra_leds/" tstamps="/27316c0a-4d35-4f40-9937-2289022226c5/"/>
+      <tstamp>6e2f8815-f4c1-42c0-a5bb-004fb3fc3150</tstamp>
+    </comp>
+    <comp ref="U33">
+      <value>WS2812E_LED</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <fields>
+        <field name="LCSC">C139127</field>
+        <field name="MFG">Worldsemi</field>
+        <field name="MFG PN">WS2812E</field>
+      </fields>
+      <libsource lib="jeremy" part="WS2812E_LED" description="WS2812B compatible LED, 1.5x1.5mm"/>
+      <property name="MFG" value="Worldsemi"/>
+      <property name="MFG PN" value="WS2812E"/>
+      <property name="LCSC" value="C139127"/>
+      <property name="Sheet name" value="extra_leds"/>
+      <property name="Sheet file" value="extra_leds.kicad_sch"/>
+      <sheetpath names="/extra_leds/" tstamps="/27316c0a-4d35-4f40-9937-2289022226c5/"/>
+      <tstamp>f60f89eb-7e17-4706-99bd-28fa3fd635d8</tstamp>
+    </comp>
+    <comp ref="U34">
+      <value>WS2812E_LED</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <fields>
+        <field name="LCSC">C139127</field>
+        <field name="MFG">Worldsemi</field>
+        <field name="MFG PN">WS2812E</field>
+      </fields>
+      <libsource lib="jeremy" part="WS2812E_LED" description="WS2812B compatible LED, 1.5x1.5mm"/>
+      <property name="MFG" value="Worldsemi"/>
+      <property name="MFG PN" value="WS2812E"/>
+      <property name="LCSC" value="C139127"/>
+      <property name="Sheet name" value="extra_leds"/>
+      <property name="Sheet file" value="extra_leds.kicad_sch"/>
+      <sheetpath names="/extra_leds/" tstamps="/27316c0a-4d35-4f40-9937-2289022226c5/"/>
+      <tstamp>92cfa7d2-b24d-476d-8ae2-84fe900b40dc</tstamp>
+    </comp>
+    <comp ref="U35">
+      <value>WS2812E_LED</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <fields>
+        <field name="LCSC">C139127</field>
+        <field name="MFG">Worldsemi</field>
+        <field name="MFG PN">WS2812E</field>
+      </fields>
+      <libsource lib="jeremy" part="WS2812E_LED" description="WS2812B compatible LED, 1.5x1.5mm"/>
+      <property name="MFG" value="Worldsemi"/>
+      <property name="MFG PN" value="WS2812E"/>
+      <property name="LCSC" value="C139127"/>
+      <property name="Sheet name" value="extra_leds"/>
+      <property name="Sheet file" value="extra_leds.kicad_sch"/>
+      <sheetpath names="/extra_leds/" tstamps="/27316c0a-4d35-4f40-9937-2289022226c5/"/>
+      <tstamp>d54d21a9-f72c-4c3f-89de-f01a56be5a71</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x05">
+      <description>Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x05</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x06">
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Logic_LevelTranslator" part="SN74LV1T34DCK">
+      <description>Single Power Supply, Single Buffer GATE, CMOS Logic, Level Shifter, SOT-353</description>
+      <docs>https://www.ti.com/lit/ds/symlink/sn74lv1t34.pdf</docs>
+      <footprints>
+        <fp>SOT?353*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SN74LV1T34DCK</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-353_SC-70-5</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/sn74lv1t34.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NC" type="NotConnected"/>
+        <pin num="2" name="A" type="input"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="Y" type="output"/>
+        <pin num="5" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="jer_Samsung_MLCC_0402" part="C,100n,16V,0402,10%,X5R,85C">
+      <description>Capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C,100n,16V,0402,10%,X5R,85C</field>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="P0_Value">100n</field>
+        <field name="P1_Voltage">16V</field>
+        <field name="P2_Package">0402</field>
+        <field name="P3_Tolerance">10%</field>
+        <field name="P4_Tempco">X5R</field>
+        <field name="P5_Maxtemp">85C</field>
+        <field name="MFG">Samsung</field>
+        <field name="MFG PN">CL05A104KO5NNNC</field>
+        <field name="Digikey">1276-1234-1-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="jer_mounting_hole" part="MountingHole_3.4mm">
+      <description>Mounting Hole, 3.4mm without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_3.4mm</field>
+        <field name="Footprint">jer_mounting_holes:MountingHole_3.4mm</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="jeremy" part="NO_BUTTON_K2-1102SP-E4SC-04">
+      <description>MEC 5E single pole normally-open tactile switch</description>
+      <footprints>
+        <fp>SW*MEC*5G*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">NO_BUTTON_K2-1102SP-E4SC-04</field>
+        <field name="Footprint">Button_Switch_SMD:SW_SPST_PTS645</field>
+        <field name="MFG">Korean Hroparts Elec</field>
+        <field name="MFG PN">K2-1102SP-E4SC-04</field>
+        <field name="LCSC">C136669</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="jeremy" part="NO_BUTTON_K2-1102SP-E4SC-04_1">
+      <description>MEC 5E single pole normally-open tactile switch</description>
+      <footprints>
+        <fp>SW*MEC*5G*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">NO_BUTTON_K2-1102SP-E4SC-04</field>
+        <field name="Footprint">Button_Switch_SMD:SW_SPST_PTS645</field>
+        <field name="MFG">Korean Hroparts Elec</field>
+        <field name="MFG PN">K2-1102SP-E4SC-04</field>
+        <field name="LCSC">C136669</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="jeremy" part="NO_BUTTON_K2-1102SP-E4SC-04_10">
+      <description>MEC 5E single pole normally-open tactile switch</description>
+      <footprints>
+        <fp>SW*MEC*5G*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">NO_BUTTON_K2-1102SP-E4SC-04</field>
+        <field name="Footprint">Button_Switch_SMD:SW_SPST_PTS645</field>
+        <field name="MFG">Korean Hroparts Elec</field>
+        <field name="MFG PN">K2-1102SP-E4SC-04</field>
+        <field name="LCSC">C136669</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="jeremy" part="NO_BUTTON_K2-1102SP-E4SC-04_11">
+      <description>MEC 5E single pole normally-open tactile switch</description>
+      <footprints>
+        <fp>SW*MEC*5G*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">NO_BUTTON_K2-1102SP-E4SC-04</field>
+        <field name="Footprint">Button_Switch_SMD:SW_SPST_PTS645</field>
+        <field name="MFG">Korean Hroparts Elec</field>
+        <field name="MFG PN">K2-1102SP-E4SC-04</field>
+        <field name="LCSC">C136669</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="jeremy" part="NO_BUTTON_K2-1102SP-E4SC-04_12">
+      <description>MEC 5E single pole normally-open tactile switch</description>
+      <footprints>
+        <fp>SW*MEC*5G*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">NO_BUTTON_K2-1102SP-E4SC-04</field>
+        <field name="Footprint">Button_Switch_SMD:SW_SPST_PTS645</field>
+        <field name="MFG">Korean Hroparts Elec</field>
+        <field name="MFG PN">K2-1102SP-E4SC-04</field>
+        <field name="LCSC">C136669</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="jeremy" part="NO_BUTTON_K2-1102SP-E4SC-04_13">
+      <description>MEC 5E single pole normally-open tactile switch</description>
+      <footprints>
+        <fp>SW*MEC*5G*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">NO_BUTTON_K2-1102SP-E4SC-04</field>
+        <field name="Footprint">Button_Switch_SMD:SW_SPST_PTS645</field>
+        <field name="MFG">Korean Hroparts Elec</field>
+        <field name="MFG PN">K2-1102SP-E4SC-04</field>
+        <field name="LCSC">C136669</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="jeremy" part="NO_BUTTON_K2-1102SP-E4SC-04_14">
+      <description>MEC 5E single pole normally-open tactile switch</description>
+      <footprints>
+        <fp>SW*MEC*5G*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">NO_BUTTON_K2-1102SP-E4SC-04</field>
+        <field name="Footprint">Button_Switch_SMD:SW_SPST_PTS645</field>
+        <field name="MFG">Korean Hroparts Elec</field>
+        <field name="MFG PN">K2-1102SP-E4SC-04</field>
+        <field name="LCSC">C136669</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="jeremy" part="NO_BUTTON_K2-1102SP-E4SC-04_15">
+      <description>MEC 5E single pole normally-open tactile switch</description>
+      <footprints>
+        <fp>SW*MEC*5G*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">NO_BUTTON_K2-1102SP-E4SC-04</field>
+        <field name="Footprint">Button_Switch_SMD:SW_SPST_PTS645</field>
+        <field name="MFG">Korean Hroparts Elec</field>
+        <field name="MFG PN">K2-1102SP-E4SC-04</field>
+        <field name="LCSC">C136669</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="jeremy" part="NO_BUTTON_K2-1102SP-E4SC-04_16">
+      <description>MEC 5E single pole normally-open tactile switch</description>
+      <footprints>
+        <fp>SW*MEC*5G*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">NO_BUTTON_K2-1102SP-E4SC-04</field>
+        <field name="Footprint">Button_Switch_SMD:SW_SPST_PTS645</field>
+        <field name="MFG">Korean Hroparts Elec</field>
+        <field name="MFG PN">K2-1102SP-E4SC-04</field>
+        <field name="LCSC">C136669</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="jeremy" part="NO_BUTTON_K2-1102SP-E4SC-04_17">
+      <description>MEC 5E single pole normally-open tactile switch</description>
+      <footprints>
+        <fp>SW*MEC*5G*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">NO_BUTTON_K2-1102SP-E4SC-04</field>
+        <field name="Footprint">Button_Switch_SMD:SW_SPST_PTS645</field>
+        <field name="MFG">Korean Hroparts Elec</field>
+        <field name="MFG PN">K2-1102SP-E4SC-04</field>
+        <field name="LCSC">C136669</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="jeremy" part="NO_BUTTON_K2-1102SP-E4SC-04_18">
+      <description>MEC 5E single pole normally-open tactile switch</description>
+      <footprints>
+        <fp>SW*MEC*5G*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">NO_BUTTON_K2-1102SP-E4SC-04</field>
+        <field name="Footprint">Button_Switch_SMD:SW_SPST_PTS645</field>
+        <field name="MFG">Korean Hroparts Elec</field>
+        <field name="MFG PN">K2-1102SP-E4SC-04</field>
+        <field name="LCSC">C136669</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="jeremy" part="NO_BUTTON_K2-1102SP-E4SC-04_19">
+      <description>MEC 5E single pole normally-open tactile switch</description>
+      <footprints>
+        <fp>SW*MEC*5G*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">NO_BUTTON_K2-1102SP-E4SC-04</field>
+        <field name="Footprint">Button_Switch_SMD:SW_SPST_PTS645</field>
+        <field name="MFG">Korean Hroparts Elec</field>
+        <field name="MFG PN">K2-1102SP-E4SC-04</field>
+        <field name="LCSC">C136669</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="jeremy" part="NO_BUTTON_K2-1102SP-E4SC-04_2">
+      <description>MEC 5E single pole normally-open tactile switch</description>
+      <footprints>
+        <fp>SW*MEC*5G*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">NO_BUTTON_K2-1102SP-E4SC-04</field>
+        <field name="Footprint">Button_Switch_SMD:SW_SPST_PTS645</field>
+        <field name="MFG">Korean Hroparts Elec</field>
+        <field name="MFG PN">K2-1102SP-E4SC-04</field>
+        <field name="LCSC">C136669</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="jeremy" part="NO_BUTTON_K2-1102SP-E4SC-04_20">
+      <description>MEC 5E single pole normally-open tactile switch</description>
+      <footprints>
+        <fp>SW*MEC*5G*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">NO_BUTTON_K2-1102SP-E4SC-04</field>
+        <field name="Footprint">Button_Switch_SMD:SW_SPST_PTS645</field>
+        <field name="MFG">Korean Hroparts Elec</field>
+        <field name="MFG PN">K2-1102SP-E4SC-04</field>
+        <field name="LCSC">C136669</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="jeremy" part="NO_BUTTON_K2-1102SP-E4SC-04_21">
+      <description>MEC 5E single pole normally-open tactile switch</description>
+      <footprints>
+        <fp>SW*MEC*5G*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">NO_BUTTON_K2-1102SP-E4SC-04</field>
+        <field name="Footprint">Button_Switch_SMD:SW_SPST_PTS645</field>
+        <field name="MFG">Korean Hroparts Elec</field>
+        <field name="MFG PN">K2-1102SP-E4SC-04</field>
+        <field name="LCSC">C136669</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="jeremy" part="NO_BUTTON_K2-1102SP-E4SC-04_22">
+      <description>MEC 5E single pole normally-open tactile switch</description>
+      <footprints>
+        <fp>SW*MEC*5G*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">NO_BUTTON_K2-1102SP-E4SC-04</field>
+        <field name="Footprint">Button_Switch_SMD:SW_SPST_PTS645</field>
+        <field name="MFG">Korean Hroparts Elec</field>
+        <field name="MFG PN">K2-1102SP-E4SC-04</field>
+        <field name="LCSC">C136669</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="jeremy" part="NO_BUTTON_K2-1102SP-E4SC-04_23">
+      <description>MEC 5E single pole normally-open tactile switch</description>
+      <footprints>
+        <fp>SW*MEC*5G*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">NO_BUTTON_K2-1102SP-E4SC-04</field>
+        <field name="Footprint">Button_Switch_SMD:SW_SPST_PTS645</field>
+        <field name="MFG">Korean Hroparts Elec</field>
+        <field name="MFG PN">K2-1102SP-E4SC-04</field>
+        <field name="LCSC">C136669</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="jeremy" part="NO_BUTTON_K2-1102SP-E4SC-04_3">
+      <description>MEC 5E single pole normally-open tactile switch</description>
+      <footprints>
+        <fp>SW*MEC*5G*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">NO_BUTTON_K2-1102SP-E4SC-04</field>
+        <field name="Footprint">Button_Switch_SMD:SW_SPST_PTS645</field>
+        <field name="MFG">Korean Hroparts Elec</field>
+        <field name="MFG PN">K2-1102SP-E4SC-04</field>
+        <field name="LCSC">C136669</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="jeremy" part="NO_BUTTON_K2-1102SP-E4SC-04_4">
+      <description>MEC 5E single pole normally-open tactile switch</description>
+      <footprints>
+        <fp>SW*MEC*5G*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">NO_BUTTON_K2-1102SP-E4SC-04</field>
+        <field name="Footprint">Button_Switch_SMD:SW_SPST_PTS645</field>
+        <field name="MFG">Korean Hroparts Elec</field>
+        <field name="MFG PN">K2-1102SP-E4SC-04</field>
+        <field name="LCSC">C136669</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="jeremy" part="NO_BUTTON_K2-1102SP-E4SC-04_5">
+      <description>MEC 5E single pole normally-open tactile switch</description>
+      <footprints>
+        <fp>SW*MEC*5G*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">NO_BUTTON_K2-1102SP-E4SC-04</field>
+        <field name="Footprint">Button_Switch_SMD:SW_SPST_PTS645</field>
+        <field name="MFG">Korean Hroparts Elec</field>
+        <field name="MFG PN">K2-1102SP-E4SC-04</field>
+        <field name="LCSC">C136669</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="jeremy" part="NO_BUTTON_K2-1102SP-E4SC-04_6">
+      <description>MEC 5E single pole normally-open tactile switch</description>
+      <footprints>
+        <fp>SW*MEC*5G*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">NO_BUTTON_K2-1102SP-E4SC-04</field>
+        <field name="Footprint">Button_Switch_SMD:SW_SPST_PTS645</field>
+        <field name="MFG">Korean Hroparts Elec</field>
+        <field name="MFG PN">K2-1102SP-E4SC-04</field>
+        <field name="LCSC">C136669</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="jeremy" part="NO_BUTTON_K2-1102SP-E4SC-04_7">
+      <description>MEC 5E single pole normally-open tactile switch</description>
+      <footprints>
+        <fp>SW*MEC*5G*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">NO_BUTTON_K2-1102SP-E4SC-04</field>
+        <field name="Footprint">Button_Switch_SMD:SW_SPST_PTS645</field>
+        <field name="MFG">Korean Hroparts Elec</field>
+        <field name="MFG PN">K2-1102SP-E4SC-04</field>
+        <field name="LCSC">C136669</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="jeremy" part="NO_BUTTON_K2-1102SP-E4SC-04_8">
+      <description>MEC 5E single pole normally-open tactile switch</description>
+      <footprints>
+        <fp>SW*MEC*5G*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">NO_BUTTON_K2-1102SP-E4SC-04</field>
+        <field name="Footprint">Button_Switch_SMD:SW_SPST_PTS645</field>
+        <field name="MFG">Korean Hroparts Elec</field>
+        <field name="MFG PN">K2-1102SP-E4SC-04</field>
+        <field name="LCSC">C136669</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="jeremy" part="NO_BUTTON_K2-1102SP-E4SC-04_9">
+      <description>MEC 5E single pole normally-open tactile switch</description>
+      <footprints>
+        <fp>SW*MEC*5G*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">NO_BUTTON_K2-1102SP-E4SC-04</field>
+        <field name="Footprint">Button_Switch_SMD:SW_SPST_PTS645</field>
+        <field name="MFG">Korean Hroparts Elec</field>
+        <field name="MFG PN">K2-1102SP-E4SC-04</field>
+        <field name="LCSC">C136669</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="jeremy" part="WS2812E_LED">
+      <description>WS2812B compatible LED, 1.5x1.5mm</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">WS2812E_LED</field>
+        <field name="Footprint">LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</field>
+        <field name="MFG">Worldsemi</field>
+        <field name="MFG PN">WS2812E</field>
+        <field name="LCSC">C139127</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="unspc"/>
+        <pin num="2" name="DOUT" type="unspc"/>
+        <pin num="3" name="VSS" type="unspc"/>
+        <pin num="4" name="DIN" type="unspc"/>
+      </pins>
+    </libpart>
+    <libpart lib="jeremy" part="XRA1201PIG24">
+      <description>I2C IO expander - 16 bit</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">XRA1201PIG24</field>
+        <field name="Footprint">Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm</field>
+        <field name="MFG">Exar/MaxLinear</field>
+        <field name="MFG PN">XRA1201PIG24</field>
+        <field name="Digikey">XRA1201PIG24TR-F-ND</field>
+        <field name="Mouser">701-XRA1201PIG24TR-F</field>
+        <field name="LCSC">C517989</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~IRQ" type="unspc"/>
+        <pin num="2" name="A1" type="unspc"/>
+        <pin num="3" name="A2" type="unspc"/>
+        <pin num="4" name="P0" type="unspc"/>
+        <pin num="5" name="P1" type="unspc"/>
+        <pin num="6" name="P2" type="unspc"/>
+        <pin num="7" name="P3" type="unspc"/>
+        <pin num="8" name="P4" type="unspc"/>
+        <pin num="9" name="P5" type="unspc"/>
+        <pin num="10" name="P6" type="unspc"/>
+        <pin num="11" name="P7" type="unspc"/>
+        <pin num="12" name="GND" type="unspc"/>
+        <pin num="13" name="P8" type="unspc"/>
+        <pin num="14" name="P9" type="unspc"/>
+        <pin num="15" name="P10" type="unspc"/>
+        <pin num="16" name="P11" type="unspc"/>
+        <pin num="17" name="P12" type="unspc"/>
+        <pin num="18" name="P13" type="unspc"/>
+        <pin num="19" name="P14" type="unspc"/>
+        <pin num="20" name="P15" type="unspc"/>
+        <pin num="21" name="A0" type="unspc"/>
+        <pin num="22" name="SCL" type="unspc"/>
+        <pin num="23" name="SDA" type="unspc"/>
+        <pin num="24" name="VCC" type="unspc"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>/usr/lib/kicad-nightly/share/kicad/library/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Logic_LevelTranslator">
+      <uri>/usr/lib/kicad-nightly/share/kicad/library/Logic_LevelTranslator.kicad_sym</uri>
+    </library>
+    <library logical="jer_Samsung_MLCC_0402">
+      <uri>/mnt/hgfs/jeremy/Seafile/kicad/libraries_kicad6/generate_kicad_lib/output/jer_Samsung_MLCC_0402.kicad_sym</uri>
+    </library>
+    <library logical="jer_mounting_hole">
+      <uri>/mnt/hgfs/jeremy/Seafile/kicad/libraries_kicad6/jer_mounting_hole.kicad_sym</uri>
+    </library>
+    <library logical="jeremy">
+      <uri>/mnt/hgfs/jeremy/Seafile/kicad/libraries_kicad6/jeremy.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="C26" pin="1"/>
+      <node ref="C27" pin="1"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1"/>
+      <node ref="U26" pin="2" pinfunction="A1"/>
+      <node ref="U26" pin="24" pinfunction="VCC"/>
+      <node ref="U26" pin="3" pinfunction="A2"/>
+      <node ref="U27" pin="2" pinfunction="A1"/>
+      <node ref="U27" pin="24" pinfunction="VCC"/>
+      <node ref="U27" pin="3" pinfunction="A2"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="C1" pin="1"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="C17" pin="2"/>
+      <node ref="C18" pin="2"/>
+      <node ref="C19" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C20" pin="2"/>
+      <node ref="C21" pin="2"/>
+      <node ref="C22" pin="2"/>
+      <node ref="C23" pin="2"/>
+      <node ref="C24" pin="2"/>
+      <node ref="C25" pin="2"/>
+      <node ref="C28" pin="2"/>
+      <node ref="C29" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C30" pin="2"/>
+      <node ref="C31" pin="2"/>
+      <node ref="C32" pin="2"/>
+      <node ref="C33" pin="2"/>
+      <node ref="C34" pin="2"/>
+      <node ref="C35" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2"/>
+      <node ref="U1" pin="5" pinfunction="VCC"/>
+      <node ref="U10" pin="3" pinfunction="VSS"/>
+      <node ref="U11" pin="3" pinfunction="VSS"/>
+      <node ref="U12" pin="3" pinfunction="VSS"/>
+      <node ref="U13" pin="3" pinfunction="VSS"/>
+      <node ref="U14" pin="3" pinfunction="VSS"/>
+      <node ref="U15" pin="3" pinfunction="VSS"/>
+      <node ref="U16" pin="3" pinfunction="VSS"/>
+      <node ref="U17" pin="3" pinfunction="VSS"/>
+      <node ref="U18" pin="3" pinfunction="VSS"/>
+      <node ref="U19" pin="3" pinfunction="VSS"/>
+      <node ref="U2" pin="3" pinfunction="VSS"/>
+      <node ref="U20" pin="3" pinfunction="VSS"/>
+      <node ref="U21" pin="3" pinfunction="VSS"/>
+      <node ref="U22" pin="3" pinfunction="VSS"/>
+      <node ref="U23" pin="3" pinfunction="VSS"/>
+      <node ref="U24" pin="3" pinfunction="VSS"/>
+      <node ref="U25" pin="3" pinfunction="VSS"/>
+      <node ref="U28" pin="3" pinfunction="VSS"/>
+      <node ref="U29" pin="3" pinfunction="VSS"/>
+      <node ref="U3" pin="3" pinfunction="VSS"/>
+      <node ref="U30" pin="3" pinfunction="VSS"/>
+      <node ref="U31" pin="3" pinfunction="VSS"/>
+      <node ref="U32" pin="3" pinfunction="VSS"/>
+      <node ref="U33" pin="3" pinfunction="VSS"/>
+      <node ref="U34" pin="3" pinfunction="VSS"/>
+      <node ref="U35" pin="3" pinfunction="VSS"/>
+      <node ref="U4" pin="3" pinfunction="VSS"/>
+      <node ref="U5" pin="3" pinfunction="VSS"/>
+      <node ref="U6" pin="3" pinfunction="VSS"/>
+      <node ref="U7" pin="3" pinfunction="VSS"/>
+      <node ref="U8" pin="3" pinfunction="VSS"/>
+      <node ref="U9" pin="3" pinfunction="VSS"/>
+    </net>
+    <net code="3" name="/I2C_SCL">
+      <node ref="J2" pin="2" pinfunction="Pin_2"/>
+      <node ref="U26" pin="22" pinfunction="SCL"/>
+      <node ref="U27" pin="21" pinfunction="A0"/>
+      <node ref="U27" pin="22" pinfunction="SCL"/>
+    </net>
+    <net code="4" name="/IRQ1">
+      <node ref="J2" pin="4" pinfunction="Pin_4"/>
+      <node ref="U27" pin="1" pinfunction="~IRQ"/>
+    </net>
+    <net code="5" name="/IRQ2">
+      <node ref="J2" pin="5" pinfunction="Pin_5"/>
+      <node ref="U26" pin="1" pinfunction="~IRQ"/>
+    </net>
+    <net code="6" name="/LED_DIN">
+      <node ref="U1" pin="4" pinfunction="Y"/>
+      <node ref="U2" pin="4" pinfunction="DIN"/>
+    </net>
+    <net code="7" name="/LED_DOUT">
+      <node ref="U35" pin="2" pinfunction="DOUT"/>
+    </net>
+    <net code="8" name="/LED_DOUT_1">
+      <node ref="U25" pin="2" pinfunction="DOUT"/>
+      <node ref="U28" pin="4" pinfunction="DIN"/>
+    </net>
+    <net code="9" name="/keys/AUX1">
+      <node ref="SW25" pin="2" pinfunction="A"/>
+      <node ref="U27" pin="13" pinfunction="P8"/>
+    </net>
+    <net code="10" name="/keys/AUX2">
+      <node ref="SW26" pin="2" pinfunction="A"/>
+      <node ref="U27" pin="14" pinfunction="P9"/>
+    </net>
+    <net code="11" name="/keys/AUX3">
+      <node ref="SW27" pin="2" pinfunction="A"/>
+      <node ref="U27" pin="15" pinfunction="P10"/>
+    </net>
+    <net code="12" name="/keys/AUX4">
+      <node ref="SW28" pin="2" pinfunction="A"/>
+      <node ref="U27" pin="16" pinfunction="P11"/>
+    </net>
+    <net code="13" name="/keys/AUX5">
+      <node ref="SW29" pin="2" pinfunction="A"/>
+      <node ref="U27" pin="17" pinfunction="P12"/>
+    </net>
+    <net code="14" name="/keys/AUX6">
+      <node ref="SW30" pin="2" pinfunction="A"/>
+      <node ref="U27" pin="18" pinfunction="P13"/>
+    </net>
+    <net code="15" name="/keys/AUX7">
+      <node ref="SW31" pin="2" pinfunction="A"/>
+      <node ref="U27" pin="19" pinfunction="P14"/>
+    </net>
+    <net code="16" name="/keys/AUX8">
+      <node ref="SW32" pin="2" pinfunction="A"/>
+      <node ref="U27" pin="20" pinfunction="P15"/>
+    </net>
+    <net code="17" name="/keys/I2C_SDA_1">
+      <node ref="J2" pin="3" pinfunction="Pin_3"/>
+      <node ref="U26" pin="21" pinfunction="A0"/>
+      <node ref="U26" pin="23" pinfunction="SDA"/>
+      <node ref="U27" pin="23" pinfunction="SDA"/>
+    </net>
+    <net code="18" name="GND">
+      <node ref="C1" pin="2"/>
+      <node ref="C10" pin="1"/>
+      <node ref="C11" pin="1"/>
+      <node ref="C12" pin="1"/>
+      <node ref="C13" pin="1"/>
+      <node ref="C14" pin="1"/>
+      <node ref="C15" pin="1"/>
+      <node ref="C16" pin="1"/>
+      <node ref="C17" pin="1"/>
+      <node ref="C18" pin="1"/>
+      <node ref="C19" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C20" pin="1"/>
+      <node ref="C21" pin="1"/>
+      <node ref="C22" pin="1"/>
+      <node ref="C23" pin="1"/>
+      <node ref="C24" pin="1"/>
+      <node ref="C25" pin="1"/>
+      <node ref="C26" pin="2"/>
+      <node ref="C27" pin="2"/>
+      <node ref="C28" pin="1"/>
+      <node ref="C29" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C30" pin="1"/>
+      <node ref="C31" pin="1"/>
+      <node ref="C32" pin="1"/>
+      <node ref="C33" pin="1"/>
+      <node ref="C34" pin="1"/>
+      <node ref="C35" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="J1" pin="4" pinfunction="Pin_4"/>
+      <node ref="J1" pin="5" pinfunction="Pin_5"/>
+      <node ref="J2" pin="6" pinfunction="Pin_6"/>
+      <node ref="SW1" pin="1" pinfunction="1"/>
+      <node ref="SW10" pin="2" pinfunction="A"/>
+      <node ref="SW11" pin="2" pinfunction="A"/>
+      <node ref="SW12" pin="2" pinfunction="A"/>
+      <node ref="SW13" pin="2" pinfunction="A"/>
+      <node ref="SW14" pin="2" pinfunction="A"/>
+      <node ref="SW15" pin="2" pinfunction="A"/>
+      <node ref="SW16" pin="2" pinfunction="A"/>
+      <node ref="SW17" pin="1" pinfunction="1"/>
+      <node ref="SW18" pin="1" pinfunction="1"/>
+      <node ref="SW19" pin="1" pinfunction="1"/>
+      <node ref="SW2" pin="1" pinfunction="1"/>
+      <node ref="SW20" pin="1" pinfunction="1"/>
+      <node ref="SW21" pin="1" pinfunction="1"/>
+      <node ref="SW22" pin="2" pinfunction="A"/>
+      <node ref="SW23" pin="2" pinfunction="A"/>
+      <node ref="SW24" pin="2" pinfunction="A"/>
+      <node ref="SW25" pin="1" pinfunction="1"/>
+      <node ref="SW26" pin="1" pinfunction="1"/>
+      <node ref="SW27" pin="1" pinfunction="1"/>
+      <node ref="SW28" pin="1" pinfunction="1"/>
+      <node ref="SW29" pin="1" pinfunction="1"/>
+      <node ref="SW3" pin="1" pinfunction="1"/>
+      <node ref="SW30" pin="1" pinfunction="1"/>
+      <node ref="SW31" pin="1" pinfunction="1"/>
+      <node ref="SW32" pin="1" pinfunction="1"/>
+      <node ref="SW4" pin="1" pinfunction="1"/>
+      <node ref="SW5" pin="1" pinfunction="1"/>
+      <node ref="SW6" pin="1" pinfunction="1"/>
+      <node ref="SW7" pin="1" pinfunction="1"/>
+      <node ref="SW8" pin="1" pinfunction="1"/>
+      <node ref="SW9" pin="2" pinfunction="A"/>
+      <node ref="U1" pin="3" pinfunction="GND"/>
+      <node ref="U10" pin="1" pinfunction="VDD"/>
+      <node ref="U11" pin="1" pinfunction="VDD"/>
+      <node ref="U12" pin="1" pinfunction="VDD"/>
+      <node ref="U13" pin="1" pinfunction="VDD"/>
+      <node ref="U14" pin="1" pinfunction="VDD"/>
+      <node ref="U15" pin="1" pinfunction="VDD"/>
+      <node ref="U16" pin="1" pinfunction="VDD"/>
+      <node ref="U17" pin="1" pinfunction="VDD"/>
+      <node ref="U18" pin="1" pinfunction="VDD"/>
+      <node ref="U19" pin="1" pinfunction="VDD"/>
+      <node ref="U2" pin="1" pinfunction="VDD"/>
+      <node ref="U20" pin="1" pinfunction="VDD"/>
+      <node ref="U21" pin="1" pinfunction="VDD"/>
+      <node ref="U22" pin="1" pinfunction="VDD"/>
+      <node ref="U23" pin="1" pinfunction="VDD"/>
+      <node ref="U24" pin="1" pinfunction="VDD"/>
+      <node ref="U25" pin="1" pinfunction="VDD"/>
+      <node ref="U26" pin="12" pinfunction="GND"/>
+      <node ref="U27" pin="12" pinfunction="GND"/>
+      <node ref="U28" pin="1" pinfunction="VDD"/>
+      <node ref="U29" pin="1" pinfunction="VDD"/>
+      <node ref="U3" pin="1" pinfunction="VDD"/>
+      <node ref="U30" pin="1" pinfunction="VDD"/>
+      <node ref="U31" pin="1" pinfunction="VDD"/>
+      <node ref="U32" pin="1" pinfunction="VDD"/>
+      <node ref="U33" pin="1" pinfunction="VDD"/>
+      <node ref="U34" pin="1" pinfunction="VDD"/>
+      <node ref="U35" pin="1" pinfunction="VDD"/>
+      <node ref="U4" pin="1" pinfunction="VDD"/>
+      <node ref="U5" pin="1" pinfunction="VDD"/>
+      <node ref="U6" pin="1" pinfunction="VDD"/>
+      <node ref="U7" pin="1" pinfunction="VDD"/>
+      <node ref="U8" pin="1" pinfunction="VDD"/>
+      <node ref="U9" pin="1" pinfunction="VDD"/>
+    </net>
+    <net code="19" name="Net-(J1-Pad3)">
+      <node ref="J1" pin="3" pinfunction="Pin_3"/>
+      <node ref="U1" pin="2" pinfunction="A"/>
+    </net>
+    <net code="20" name="Net-(SW1-Pad2)">
+      <node ref="SW1" pin="2" pinfunction="A"/>
+      <node ref="U26" pin="4" pinfunction="P0"/>
+    </net>
+    <net code="21" name="Net-(SW2-Pad2)">
+      <node ref="SW2" pin="2" pinfunction="A"/>
+      <node ref="U26" pin="5" pinfunction="P1"/>
+    </net>
+    <net code="22" name="Net-(SW3-Pad2)">
+      <node ref="SW3" pin="2" pinfunction="A"/>
+      <node ref="U26" pin="6" pinfunction="P2"/>
+    </net>
+    <net code="23" name="Net-(SW4-Pad2)">
+      <node ref="SW4" pin="2" pinfunction="A"/>
+      <node ref="U26" pin="7" pinfunction="P3"/>
+    </net>
+    <net code="24" name="Net-(SW5-Pad2)">
+      <node ref="SW5" pin="2" pinfunction="A"/>
+      <node ref="U26" pin="8" pinfunction="P4"/>
+    </net>
+    <net code="25" name="Net-(SW6-Pad2)">
+      <node ref="SW6" pin="2" pinfunction="A"/>
+      <node ref="U26" pin="9" pinfunction="P5"/>
+    </net>
+    <net code="26" name="Net-(SW7-Pad2)">
+      <node ref="SW7" pin="2" pinfunction="A"/>
+      <node ref="U26" pin="10" pinfunction="P6"/>
+    </net>
+    <net code="27" name="Net-(SW8-Pad2)">
+      <node ref="SW8" pin="2" pinfunction="A"/>
+      <node ref="U26" pin="11" pinfunction="P7"/>
+    </net>
+    <net code="28" name="Net-(SW9-Pad1)">
+      <node ref="SW9" pin="1" pinfunction="1"/>
+      <node ref="U26" pin="13" pinfunction="P8"/>
+    </net>
+    <net code="29" name="Net-(SW10-Pad1)">
+      <node ref="SW10" pin="1" pinfunction="1"/>
+      <node ref="U26" pin="14" pinfunction="P9"/>
+    </net>
+    <net code="30" name="Net-(SW11-Pad1)">
+      <node ref="SW11" pin="1" pinfunction="1"/>
+      <node ref="U26" pin="15" pinfunction="P10"/>
+    </net>
+    <net code="31" name="Net-(SW12-Pad1)">
+      <node ref="SW12" pin="1" pinfunction="1"/>
+      <node ref="U26" pin="16" pinfunction="P11"/>
+    </net>
+    <net code="32" name="Net-(SW17-Pad2)">
+      <node ref="SW17" pin="2" pinfunction="A"/>
+      <node ref="U27" pin="4" pinfunction="P0"/>
+    </net>
+    <net code="33" name="Net-(SW18-Pad2)">
+      <node ref="SW18" pin="2" pinfunction="A"/>
+      <node ref="U27" pin="5" pinfunction="P1"/>
+    </net>
+    <net code="34" name="Net-(SW19-Pad2)">
+      <node ref="SW19" pin="2" pinfunction="A"/>
+      <node ref="U27" pin="6" pinfunction="P2"/>
+    </net>
+    <net code="35" name="Net-(SW20-Pad2)">
+      <node ref="SW20" pin="2" pinfunction="A"/>
+      <node ref="U27" pin="7" pinfunction="P3"/>
+    </net>
+    <net code="36" name="Net-(SW21-Pad2)">
+      <node ref="SW21" pin="2" pinfunction="A"/>
+      <node ref="U27" pin="8" pinfunction="P4"/>
+    </net>
+    <net code="37" name="Net-(SW22-Pad1)">
+      <node ref="SW22" pin="1" pinfunction="1"/>
+      <node ref="U27" pin="9" pinfunction="P5"/>
+    </net>
+    <net code="38" name="Net-(SW23-Pad1)">
+      <node ref="SW23" pin="1" pinfunction="1"/>
+      <node ref="U27" pin="10" pinfunction="P6"/>
+    </net>
+    <net code="39" name="Net-(SW24-Pad1)">
+      <node ref="SW24" pin="1" pinfunction="1"/>
+      <node ref="U27" pin="11" pinfunction="P7"/>
+    </net>
+    <net code="40" name="Net-(U2-Pad2)">
+      <node ref="U2" pin="2" pinfunction="DOUT"/>
+      <node ref="U3" pin="4" pinfunction="DIN"/>
+    </net>
+    <net code="41" name="Net-(U3-Pad2)">
+      <node ref="U3" pin="2" pinfunction="DOUT"/>
+      <node ref="U4" pin="4" pinfunction="DIN"/>
+    </net>
+    <net code="42" name="Net-(U4-Pad2)">
+      <node ref="U4" pin="2" pinfunction="DOUT"/>
+      <node ref="U5" pin="4" pinfunction="DIN"/>
+    </net>
+    <net code="43" name="Net-(U5-Pad2)">
+      <node ref="U5" pin="2" pinfunction="DOUT"/>
+      <node ref="U6" pin="4" pinfunction="DIN"/>
+    </net>
+    <net code="44" name="Net-(U6-Pad2)">
+      <node ref="U6" pin="2" pinfunction="DOUT"/>
+      <node ref="U7" pin="4" pinfunction="DIN"/>
+    </net>
+    <net code="45" name="Net-(U7-Pad2)">
+      <node ref="U7" pin="2" pinfunction="DOUT"/>
+      <node ref="U8" pin="4" pinfunction="DIN"/>
+    </net>
+    <net code="46" name="Net-(U8-Pad2)">
+      <node ref="U8" pin="2" pinfunction="DOUT"/>
+      <node ref="U9" pin="4" pinfunction="DIN"/>
+    </net>
+    <net code="47" name="Net-(U10-Pad2)">
+      <node ref="U10" pin="2" pinfunction="DOUT"/>
+      <node ref="U11" pin="4" pinfunction="DIN"/>
+    </net>
+    <net code="48" name="Net-(U10-Pad4)">
+      <node ref="U10" pin="4" pinfunction="DIN"/>
+      <node ref="U9" pin="2" pinfunction="DOUT"/>
+    </net>
+    <net code="49" name="Net-(U11-Pad2)">
+      <node ref="U11" pin="2" pinfunction="DOUT"/>
+      <node ref="U12" pin="4" pinfunction="DIN"/>
+    </net>
+    <net code="50" name="Net-(U12-Pad2)">
+      <node ref="U12" pin="2" pinfunction="DOUT"/>
+      <node ref="U13" pin="4" pinfunction="DIN"/>
+    </net>
+    <net code="51" name="Net-(U13-Pad2)">
+      <node ref="U13" pin="2" pinfunction="DOUT"/>
+      <node ref="U14" pin="4" pinfunction="DIN"/>
+    </net>
+    <net code="52" name="Net-(U14-Pad2)">
+      <node ref="U14" pin="2" pinfunction="DOUT"/>
+      <node ref="U15" pin="4" pinfunction="DIN"/>
+    </net>
+    <net code="53" name="Net-(U15-Pad2)">
+      <node ref="U15" pin="2" pinfunction="DOUT"/>
+      <node ref="U16" pin="4" pinfunction="DIN"/>
+    </net>
+    <net code="54" name="Net-(U16-Pad2)">
+      <node ref="U16" pin="2" pinfunction="DOUT"/>
+      <node ref="U17" pin="4" pinfunction="DIN"/>
+    </net>
+    <net code="55" name="Net-(U17-Pad2)">
+      <node ref="U17" pin="2" pinfunction="DOUT"/>
+      <node ref="U18" pin="4" pinfunction="DIN"/>
+    </net>
+    <net code="56" name="Net-(U18-Pad2)">
+      <node ref="U18" pin="2" pinfunction="DOUT"/>
+      <node ref="U19" pin="4" pinfunction="DIN"/>
+    </net>
+    <net code="57" name="Net-(U19-Pad2)">
+      <node ref="U19" pin="2" pinfunction="DOUT"/>
+      <node ref="U20" pin="4" pinfunction="DIN"/>
+    </net>
+    <net code="58" name="Net-(U20-Pad2)">
+      <node ref="U20" pin="2" pinfunction="DOUT"/>
+      <node ref="U21" pin="4" pinfunction="DIN"/>
+    </net>
+    <net code="59" name="Net-(U21-Pad2)">
+      <node ref="U21" pin="2" pinfunction="DOUT"/>
+      <node ref="U22" pin="4" pinfunction="DIN"/>
+    </net>
+    <net code="60" name="Net-(U22-Pad2)">
+      <node ref="U22" pin="2" pinfunction="DOUT"/>
+      <node ref="U23" pin="4" pinfunction="DIN"/>
+    </net>
+    <net code="61" name="Net-(U23-Pad2)">
+      <node ref="U23" pin="2" pinfunction="DOUT"/>
+      <node ref="U24" pin="4" pinfunction="DIN"/>
+    </net>
+    <net code="62" name="Net-(U24-Pad2)">
+      <node ref="U24" pin="2" pinfunction="DOUT"/>
+      <node ref="U25" pin="4" pinfunction="DIN"/>
+    </net>
+    <net code="63" name="Net-(U26-Pad17)">
+      <node ref="SW13" pin="1" pinfunction="1"/>
+      <node ref="U26" pin="17" pinfunction="P12"/>
+    </net>
+    <net code="64" name="Net-(U26-Pad18)">
+      <node ref="SW14" pin="1" pinfunction="1"/>
+      <node ref="U26" pin="18" pinfunction="P13"/>
+    </net>
+    <net code="65" name="Net-(U26-Pad19)">
+      <node ref="SW15" pin="1" pinfunction="1"/>
+      <node ref="U26" pin="19" pinfunction="P14"/>
+    </net>
+    <net code="66" name="Net-(U26-Pad20)">
+      <node ref="SW16" pin="1" pinfunction="1"/>
+      <node ref="U26" pin="20" pinfunction="P15"/>
+    </net>
+    <net code="67" name="Net-(U28-Pad2)">
+      <node ref="U28" pin="2" pinfunction="DOUT"/>
+      <node ref="U29" pin="4" pinfunction="DIN"/>
+    </net>
+    <net code="68" name="Net-(U29-Pad2)">
+      <node ref="U29" pin="2" pinfunction="DOUT"/>
+      <node ref="U30" pin="4" pinfunction="DIN"/>
+    </net>
+    <net code="69" name="Net-(U30-Pad2)">
+      <node ref="U30" pin="2" pinfunction="DOUT"/>
+      <node ref="U31" pin="4" pinfunction="DIN"/>
+    </net>
+    <net code="70" name="Net-(U31-Pad2)">
+      <node ref="U31" pin="2" pinfunction="DOUT"/>
+      <node ref="U32" pin="4" pinfunction="DIN"/>
+    </net>
+    <net code="71" name="Net-(U32-Pad2)">
+      <node ref="U32" pin="2" pinfunction="DOUT"/>
+      <node ref="U33" pin="4" pinfunction="DIN"/>
+    </net>
+    <net code="72" name="Net-(U33-Pad2)">
+      <node ref="U33" pin="2" pinfunction="DOUT"/>
+      <node ref="U34" pin="4" pinfunction="DIN"/>
+    </net>
+    <net code="73" name="Net-(U34-Pad2)">
+      <node ref="U34" pin="2" pinfunction="DOUT"/>
+      <node ref="U35" pin="4" pinfunction="DIN"/>
+    </net>
+  </nets>
+</export>
